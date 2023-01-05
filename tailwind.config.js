@@ -16,9 +16,6 @@ module.exports = {
       'lg': '1024px',
       
       'xl': '1440px',
-      
-      'xxl': '2560px',
-
     },
     backgroundImage: {
       'contact': "url('assets/pexels-contact.jpg')",

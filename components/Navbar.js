@@ -83,21 +83,21 @@ export default function Navbar() {
 
     const goToSkills = () => {
         window.scrollTo({
-            top: 2300,
+            top: 2200,
             behavior: "smooth",
         })
     };
 
     const goToPortfolio = () => {
         window.scrollTo({
-            top: 4800,
+            top: 4750,
             behavior: "smooth",
         })
     };
 
     const goToContact = () => {
         window.scrollTo({
-            top: 22000,
+            top: 26000,
             behavior: "smooth",
         })
     };
@@ -121,20 +121,20 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
 
-                <div className=" hidden lg:flex mr-[14em] md:flex mr-[4em] md:text-lg text-xl lg:mr-[13em] ip:mr-10 xl:mr-[45%] cursor-pointer ">
-                    <h4 onClick={goToTop} className=' px-5 '>
+                <div className=" hidden md:flex md:flex-auto md:flex-row md:ml-[auto]  cursor-pointer text-lg mr-20 p-[-20] ">
+                    <h4 onClick={goToTop} className='flex-1 '>
                         Home
                     </h4>
-                    <h4 onClick={goToServices} className=' px-5 '>
+                    <h4 onClick={goToServices} className='flex-1 mr-5'>
                         Serviços
                     </h4>
-                    <h4 onClick={goToSkills} className=' px-5 '>
+                    <h4 onClick={goToSkills} className='flex-1 mr-5'>
                         Habilidades
                     </h4>
-                    <h4 onClick={goToPortfolio} className=' px-5 '>
+                    <h4 onClick={goToPortfolio} className='flex-1 mr-5'>
                         Portfolio
                     </h4>
-                    <h4 onClick={goToContact} className=' px-5 '>
+                    <h4 onClick={goToContact} className='flex-1 mr-5'>
                         Contato
                     </h4>
                 </div>
