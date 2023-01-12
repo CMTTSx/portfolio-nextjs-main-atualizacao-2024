@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Image from 'next/image';
+import Link from 'next/link';
 
 //Import Icons
 import htmlIcon from '../public/img/html5iconNew.png'
@@ -35,8 +35,7 @@ import figmaIcon from '../public/img/figmaIcon.png'
 import githubIcon from '../public/img/GitHub.png'
 import photoIcon from '../public/img/photoshop.png'
 import linuxIcon from '../public/img/Linux2.png'
-import Link from 'next/link';
-
+import jestIcon from '../public/img/jestIcon.webp'
 
 
 
@@ -51,13 +50,14 @@ export default function Skills() {
         <div className=' border-[1px] cursor-pointer ' title='HTML, versão 5, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.' ><Image src={htmlIcon} alt="html5" width='200px' height='200px' className='hover:scale-110 ' /></div>
         <div className=' border-[1px] cursor-pointer ' title='Com o CSS, versão 3. Pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.' ><Image src={cssIcon} alt="cssIcon" width='200px' height='200px' className='hover:scale-110' /></div>
         <div className=' border-[1px] cursor-pointer ' title='JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.' ><Image src={jsIcon} alt="jsIcon" width='200px' height='200px' className='hover:scale-110' /></div>
-        <div className=' border-[1px] cursor-pointer ' title='TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem. Tipos fornecem uma maneira de descrever a forma de um objeto, fornecendo melhor documentação e permitindo que o TypeScript valide se seu código está funcionando corretamente.' ><Image src={tsIcon} alt="tsIcon" width='200px' height='210px' className='hover:scale-110 ' /></div>
+        <div className=' cursor-pointer ' title='TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem. Tipos fornecem uma maneira de descrever a forma de um objeto, fornecendo melhor documentação e permitindo que o TypeScript valide se seu código está funcionando corretamente.' ><Image src={tsIcon} alt="tsIcon" width='200px' height='200px' className='hover:scale-110 ' /></div>
         <div className=' border-[1px] cursor-pointer ' title='O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. ' ><Image src={reactIcon} alt="reactIcon" width='200px' height='200px' className='hover:scale-110' /></div>
         <div className=' border-[1px] cursor-pointer ' title='Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React ' ><Image src={nextIcon} alt="nextIcon" width='200px' height='200px' className='hover:scale-110' /></div>
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-10 ' title='O Tailwind é uma coleção de componentes de interface do usuário bonitos e totalmente responsivos, projetados e desenvolvidos por nós, os criadores do Tailwind CSS. Ele tem centenas de exemplos prontos para usar e é garantido para ajudá-lo a encontrar o ponto de partida perfeito para o que você deseja construir. ' ><Image src={tailwindIcon} alt="tailwindIcon" width='200px' height='120px' className='hover:scale-110 ' /></div>
         <div className=' cursor-pointer              ' title='O estilo permite que você use a sintaxe CSS real dentro de seus componentes. Componentes com estilo é uma variante do “CSS-in-JS” – que resolve muitos dos problemas com o CSS tradicional. Um dos problemas mais importantes que eles resolvem são as colisões de nomes de seletores. Com CSS tradicional, você deve ter cuidado para não sobrescrever seletores CSS usados em outro lugar em um site porque todos os seletores CSS vivem no mesmo namespace global. Essa restrição infeliz pode levar a esquemas de nomenclatura de seletor elaborados (e muitas vezes confusos). ' ><Image src={styledIcon} alt="styledIcon" width='210px' height='220px' className='hover:scale-110 ' /></div>
-        <div className=' border-[1px] cursor-pointer ' title='Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo. ' ><Image src={bootstrapIcon} alt="bootstrapIcon" width='200px' height='200px' className='hover:scale-110 ' /></div>
+        <div className=' border-[1px] cursor-pointer ' title='Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.'><Image src={bootstrapIcon} alt="bootstrapIcon" width='200px' height='200px' className='hover:scale-110 ' /></div>
         <div className=' border-[1px] cursor-pointer ' title='Biblioteca de componentes React para um desenvolvimento ágil e fácil. Construa seu próprio design, ou comece com Material Design. ' ><Image src={muiIcon} alt="muiIcon" width='210px' height='200px' className='hover:scale-110 ' /></div>
+        <div className=' cursor-pointer ' title='Jest é um framework de teste unitário de código aberto em JavaScript criado pelo Facebook a partir do framework Jasmine.' ><Image src={jestIcon} alt="muiIcon" width='200px' height='200px' className='hover:scale-110 ' /></div>
 
       </div>
 
