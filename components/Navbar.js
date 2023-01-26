@@ -17,6 +17,7 @@ function MobileNav({ open, setOpen }) {
             top: 800,
             behavior: "smooth",
         })
+        
     };
 
     const goToSkills = () => {
@@ -24,13 +25,41 @@ function MobileNav({ open, setOpen }) {
             top: 5800,
             behavior: "smooth",
         })
+
+    const mediaQuery = window.matchMedia('(width: 375px)')
+    // Check if the media query is true
+    if (mediaQuery.matches) {
+        window.scrollTo({
+            top: 5800,
+            behavior: "smooth",
+        })
+    }
+        
+    const mediaQuery425 = window.matchMedia('(width: 425px)')
+    // Check if the media query is true
+    if (mediaQuery425.matches) {
+        window.scrollTo({
+            top: 5000,
+            behavior: "smooth",
+        })
+    }
+
     };
 
     const goToPortfolio = () => {
         window.scrollTo({
-            top: 9000,
+            top: 9500,
             behavior: "smooth",
         })
+
+    const mediaQuery = window.matchMedia('(width: 425px)')
+    // Check if the media query is true
+    if (mediaQuery.matches) {
+        window.scrollTo({
+            top: 9200,
+            behavior: "smooth",
+        })
+    }
     };
 
     const goToContact = () => {
@@ -87,7 +116,7 @@ export default function Navbar() {
                 top: 700,
                 behavior: "smooth",
             })
-}
+        }
     };
 
     const goToSkills = () => {
@@ -103,7 +132,7 @@ export default function Navbar() {
                 top: 5100,
                 behavior: "smooth",
             })
-}
+        }
     };
 
     const goToPortfolio = () => {
@@ -119,7 +148,7 @@ export default function Navbar() {
                 top: 7600,
                 behavior: "smooth",
             })
-}
+        }
     };
 
     const goToContact = () => {
