@@ -79,6 +79,15 @@ export default function Navbar() {
             top: 500,
             behavior: "smooth",
         })
+
+        const mediaQuery = window.matchMedia('(width: 768px)')
+        // Check if the media query is true
+        if (mediaQuery.matches) {
+            window.scrollTo({
+                top: 700,
+                behavior: "smooth",
+            })
+}
     };
 
     const goToSkills = () => {
@@ -86,6 +95,15 @@ export default function Navbar() {
             top: 2200,
             behavior: "smooth",
         })
+
+        const mediaQuery = window.matchMedia('(width: 768px)')
+        // Check if the media query is true
+        if (mediaQuery.matches) {
+            window.scrollTo({
+                top: 5100,
+                behavior: "smooth",
+            })
+}
     };
 
     const goToPortfolio = () => {
@@ -93,6 +111,15 @@ export default function Navbar() {
             top: 4750,
             behavior: "smooth",
         })
+
+        const mediaQuery = window.matchMedia('(width: 768px)')
+        // Check if the media query is true
+        if (mediaQuery.matches) {
+            window.scrollTo({
+                top: 7600,
+                behavior: "smooth",
+            })
+}
     };
 
     const goToContact = () => {
