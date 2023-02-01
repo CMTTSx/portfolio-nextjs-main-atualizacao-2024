@@ -30,7 +30,16 @@ function MobileNav({ open, setOpen }) {
     // Check if the media query is true
     if (mediaQuery.matches) {
         window.scrollTo({
-            top: 5800,
+            top: 5500,
+            behavior: "smooth",
+        })
+    }
+
+    const mediaQuery390s = window.matchMedia('(width: 390px)')
+    // Check if the media query is true
+    if (mediaQuery390s.matches) {
+        window.scrollTo({
+            top: 5500,
             behavior: "smooth",
         })
     }
@@ -116,7 +125,7 @@ export default function Navbar() {
                 top: 700,
                 behavior: "smooth",
             })
-        }
+}
     };
 
     const goToSkills = () => {
@@ -133,6 +142,43 @@ export default function Navbar() {
                 behavior: "smooth",
             })
         }
+
+        const mediaQuery810s = window.matchMedia('(width: 810px)')
+        // Check if the media query is true
+        if (mediaQuery810s.matches) {
+            window.scrollTo({
+                top: 5000,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery820s = window.matchMedia('(width: 820px)')
+        // Check if the media query is true
+        if (mediaQuery820s.matches) {
+            window.scrollTo({
+                top: 5000,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery834s = window.matchMedia('(width: 834px)')
+        // Check if the media query is true
+        if (mediaQuery834s.matches) {
+            window.scrollTo({
+                top: 5000,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery1024s = window.matchMedia('(width: 1024px)')
+        // Check if the media query is true
+        if (mediaQuery1024s.matches) {
+            window.scrollTo({
+                top: 3300,
+                behavior: "smooth",
+            })
+        }
+        
     };
 
     const goToPortfolio = () => {
@@ -146,6 +192,42 @@ export default function Navbar() {
         if (mediaQuery.matches) {
             window.scrollTo({
                 top: 7600,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery810p = window.matchMedia('(width: 810px)')
+        // Check if the media query is true
+        if (mediaQuery810p.matches) {
+            window.scrollTo({
+                top: 7600,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery820p = window.matchMedia('(width: 820px)')
+        // Check if the media query is true
+        if (mediaQuery820p.matches) {
+            window.scrollTo({
+                top: 7600,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery834p = window.matchMedia('(width: 834px)')
+        // Check if the media query is true
+        if (mediaQuery834p.matches) {
+            window.scrollTo({
+                top: 7600,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery1024p = window.matchMedia('(width: 1024px)')
+        // Check if the media query is true
+        if (mediaQuery1024p.matches) {
+            window.scrollTo({
+                top: 5600,
                 behavior: "smooth",
             })
         }
