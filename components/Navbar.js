@@ -24,6 +24,25 @@ function MobileNav({ open, setOpen }) {
             top: 5800,
             behavior: "smooth",
         })
+
+        const mediaQuery375s = window.matchMedia('(width: 375px)')
+        // Check if the media query is true
+        if (mediaQuery375s.matches) {
+            window.scrollTo({
+                top: 5500,
+                behavior: "smooth",
+            })
+        } 
+
+        const mediaQuery390s = window.matchMedia('(width: 390px)')
+    // Check if the media query is true
+    if (mediaQuery390s.matches) {
+        window.scrollTo({
+            top: 5500,
+            behavior: "smooth",
+        })
+    } 
+
     };
 
     const goToPortfolio = () => {
@@ -54,7 +73,7 @@ function MobileNav({ open, setOpen }) {
     // Check if the media query is true
     if (mediaQuery390p.matches) {
         window.scrollTo({
-            top: 9700,
+            top: 9500,
             behavior: "smooth",
         })
     } 
