@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link'
 
 //Importando Portfolio Imagens
 import siteFreteRapido from '../public/img/freterapidosite.png';
@@ -154,34 +155,34 @@ const Tabs = () => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " onClick={zoomin} >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " onClick={zoomin} >
                     <Image src={siteFreteRapido} alt="freterapidosite" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={appGiroCerto} alt="appGiroCerto" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={cryptoApp} alt="cryptoApp" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={agrotechApp} alt="agrotechApp" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
-                    <Image src={sistema1} alt="sistema1" layout="intrinsic" />
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
+                  <Link href="https://odonto-care-system.vercel.app/" ><Image src={sistema1} alt="sistema1" layout="intrinsic" /></Link>
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={ecommerce1} alt="ecommerce1" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={ecommerce2} alt="ecommerce2" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={lp1} alt="lp1" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={lp2} alt="lp2" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={lp3} alt="lp3" layout="intrinsic" />
                   </div>
 
@@ -189,47 +190,47 @@ const Tabs = () => {
                 </div>
 
                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={siteFreteRapido} alt="freterapidosite" layout="intrinsic" />
                   </div>
 
                 </div>
 
                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
-                    <Image src={sistema1} alt="sistema1" layout="intrinsic" />
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
+                    <Link href="https://odonto-care-system.vercel.app/" ><Image src={sistema1} alt="sistema1" layout="intrinsic" /></Link>
                   </div>
                 </div>
 
                 <div className={openTab === 4 ? "block" : "hidden"} id="link4">
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={appGiroCerto} alt="appGiroCerto" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={cryptoApp} alt="cryptoApp" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={agrotechApp} alt="agrotechApp" layout="intrinsic" />
                   </div>
                 </div>
 
                 <div className={openTab === 5 ? "block" : "hidden"} id="link5">
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={ecommerce1} alt="ecommerce1" layout="intrinsic" />
-                  </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  </div> 
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={ecommerce2} alt="ecommerce2" layout="intrinsic" />
                   </div>
                 </div>
 
                 <div className={openTab === 6 ? "block" : "hidden"} id="link5">
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={lp1} alt="lp1" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={lp2} alt="lp2" layout="intrinsic" />
                   </div>
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto " >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={lp3} alt="lp3" layout="intrinsic" />
                   </div>
                 </div>
