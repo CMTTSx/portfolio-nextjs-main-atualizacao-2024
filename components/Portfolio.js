@@ -16,11 +16,6 @@ import lp3 from '../public/img/CARGO_LOGISTICA.png'
 
 const Tabs = () => {
 
-  function zoomin() {
-    let width = 600;
-    console.log('Imagem foi clicada.')
-  }
-
   const [openTab, setOpenTab] = React.useState(1);
   return (
     <>
@@ -155,7 +150,7 @@ const Tabs = () => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " onClick={zoomin} >
+                  <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={siteFreteRapido} alt="freterapidosite" layout="intrinsic" />
                   </div>
                   <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
