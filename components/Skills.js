@@ -35,6 +35,7 @@ import figmaIcon from '../public/img/figmaIcon.png'
 import githubIcon from '../public/img/GitHub.png'
 import photoIcon from '../public/img/photoshop.png'
 import linuxIcon from '../public/img/Linux2.png'
+import materialDesignIcon from '../public/img/materialDesign.jpg'
 import jestIcon from '../public/img/jestIcon.webp'
 
 
@@ -57,7 +58,8 @@ export default function Skills() {
         <div className=' cursor-pointer              ' title='O estilo permite que você use a sintaxe CSS real dentro de seus componentes. Componentes com estilo é uma variante do “CSS-in-JS” – que resolve muitos dos problemas com o CSS tradicional. Um dos problemas mais importantes que eles resolvem são as colisões de nomes de seletores. Com CSS tradicional, você deve ter cuidado para não sobrescrever seletores CSS usados em outro lugar em um site porque todos os seletores CSS vivem no mesmo namespace global. Essa restrição infeliz pode levar a esquemas de nomenclatura de seletor elaborados (e muitas vezes confusos). ' ><Image src={styledIcon} alt="styledIcon" width='210px' height='220px' className='hover:scale-110 ' /></div>
         <div className=' border-[1px] cursor-pointer ' title='Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.'><Image src={bootstrapIcon} alt="bootstrapIcon" width='200px' height='200px' className='hover:scale-110 ' /></div>
         <div className=' border-[1px] cursor-pointer ' title='Biblioteca de componentes React para um desenvolvimento ágil e fácil. Construa seu próprio design, ou comece com Material Design. ' ><Image src={muiIcon} alt="muiIcon" width='210px' height='200px' className='hover:scale-110 ' /></div>
-        <div className=' cursor-pointer ' title='Jest é um framework de teste unitário de código aberto em JavaScript criado pelo Facebook a partir do framework Jasmine.' ><Image src={jestIcon} alt="muiIcon" width='200px' height='200px' className='hover:scale-110 ' /></div>
+        <div className=' cursor-pointer ' title='Material Design (codinomeado Quantum Paper) é uma linguagem de design livre desenvolvida pela Google com o objetivo de unificar e padronizar as interfaces gráficas dos sistemas da empresa (conjunto de diretrizes ou guidelines), anunciado em 2014 como uma melhoria no "card" do assistente pessoa' ><Image src={materialDesignIcon} alt="materialDesignIcon" width='200px' height='200px' className='hover:scale-110 ' /></div>
+        <div className=' cursor-pointer ' title='Jest é um framework de teste unitário de código aberto em JavaScript criado pelo Facebook a partir do framework Jasmine.' ><Image src={jestIcon} alt="jestIcon" width='200px' height='200px' className='hover:scale-110 bg-contain ' /></div>
 
       </div>
 
@@ -68,7 +70,7 @@ export default function Skills() {
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-2 ' title='MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.' ><Image src={mongoIcon} alt="mongoIcon" width='350px' height='350px' className='hover:scale-105' /></div>
         <div className=' border-[1px] cursor-pointer ' title='O Sequelize é um ORM(Object/Relational Mapper) baseado em Promise para Node. js e io. js, e suporta os dialetos PostgreSQL, MySQL, MariaDB, SQLite e MSSQL e recursos a transação, relacionamentos, replicação de leitura e muito mais.' ><Image src={sequelizeIcon} alt="sequelizeIcon" width='200px' height='200px' className='hover:scale-105 ' /></div>
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-2 ' title='O Mongoose é um ODM e fornece uma solução direta e baseada em esquema para modelar seus dados de aplicativos. Ele inclui conversão de tipo integrada, validação, criação de consulta, ganchos de lógica de negócios e muito mais, prontos para uso. ' ><Image src={mongooseIcon} alt="mongooseIcon" width='400px' height='320px' className='hover:scale-110' /></div>
-        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-5 ' title='Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.' ><Image src={firebaseIcon} alt="firebaseIcon" width='300px' height='200px' className='hover:scale-110' /></div>
+        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-5 ' title='Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.' ><Image src={firebaseIcon} alt="firebaseIcon" width='300px' height='300px' className='hover:scale-110 bg-cover ' /></div>
       </div>
 
       <h3 className=' border-[1px] text-center text-3xl font-bold bg-[#F2EFEA] '>BACK-END</h3>
