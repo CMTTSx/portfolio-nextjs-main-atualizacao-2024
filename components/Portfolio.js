@@ -166,7 +166,7 @@ const Tabs = () => {
                   <Link href="https://odonto-care-system.vercel.app/" ><Image src={sistema1} alt="sistema1" layout="intrinsic" /></Link>
                   </div>
                   <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
-                    <Image src={ecommerce1} alt="ecommerce1" layout="intrinsic" />
+                  <Link href='https://artwork-figures.vercel.app/'><Image src={ecommerce1} alt="ecommerce1" layout="intrinsic" /></Link>
                   </div>
                   <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={ecommerce2} alt="ecommerce2" layout="intrinsic" />
@@ -211,7 +211,7 @@ const Tabs = () => {
 
                 <div className={openTab === 5 ? "block" : "hidden"} id="link5">
                   <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
-                    <Image src={ecommerce1} alt="ecommerce1" layout="intrinsic" />
+                  <Link href='https://artwork-figures.vercel.app/'><Image src={ecommerce1} alt="ecommerce1" layout="intrinsic" /></Link>
                   </div> 
                   <div className=" xl:flex xl:ml-[15em] xl:w-[85em] xl:ml-auto xl:mr-auto cursor-pointer " >
                     <Image src={ecommerce2} alt="ecommerce2" layout="intrinsic" />
