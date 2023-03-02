@@ -37,7 +37,7 @@ import photoIcon from '../public/img/photoshop.png'
 import linuxIcon from '../public/img/Linux2.png'
 import materialDesignIcon from '../public/img/materialDesign.jpg'
 import jestIcon from '../public/img/jestIcon.webp'
-
+import lucidChartIcon from '../public/img/lucidchart_logo.webp'
 
 
 export default function Skills() {
@@ -101,6 +101,7 @@ export default function Skills() {
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-10 ' title='GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.' ><Image src={githubIcon} alt="githubIcon" width='350px' height='200px' className='hover:scale-110' /></div>
         <div className=' border-[1px] cursor-pointer ' title='Adobe Photoshop é um software caracterizado como editor de imagens bidimensionais do tipo raster desenvolvido pela Adobe Systems. É considerado o líder no mercado dos editores de imagem profissionais, assim como o programa de facto para edição profissional de imagens digitais e trabalhos de pré-impressão.' ><Image src={photoIcon} alt="photoIcon" width='200px' height='200px' className='hover:scale-110 ' /></div>
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-10 ' title='Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux. O núcleo foi desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema Minix. ' ><Image src={linuxIcon} alt="linuxIcon" width='350px' height='200px' className='hover:scale-110 ' /></div>
+        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-10 ' title='Diagramas de classes UML mapeiam a estrutura de um determinado sistema modelando suas classes, seus atributos, operações e relações entre objetos.' ><Image src={lucidChartIcon} alt="lucidChartIcon" width='350px' height='200px' className='hover:scale-110 ' /></div>
 
 
       </div>
