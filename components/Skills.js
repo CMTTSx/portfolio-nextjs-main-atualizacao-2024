@@ -18,7 +18,7 @@ import postgreIcon from '../public/img/postgresql_icon.png'
 import mongoIcon from '../public/img/mongodb_icon.png'
 import sequelizeIcon from '../public/img/sequelizeicon.png'
 import mongooseIcon from '../public/img/mongoose.png'
-import firebaseIcon from '../public/img/firebase.png'
+import firebaseIcon from '../public/img/firebase.webp'
 import nodeIcon from '../public/img/nodejs.jpg'
 import expressIcon from '../public/img/expressjsicon.png'
 import apiIcon from '../public/img/apirestIcon.png'
@@ -72,7 +72,7 @@ export default function Skills() {
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-7 ' title='TypeORM é um ORM que pode ser executado nas plataformas NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo e Electron e pode ser usado com TypeScript e JavaScript (ES5, ES6, ES7, ES8). Seu objetivo é sempre oferecer suporte aos recursos JavaScript mais recentes e fornecer recursos adicionais que o ajudem a desenvolver qualquer tipo de aplicativo que use bancos de dados - desde pequenos aplicativos com algumas tabelas até aplicativos corporativos de grande escala com vários bancos de dados.'><Image src={typeormIcon} alt="typeormIcon" width='300px' height='200px' className='hover:scale-110' /></div>
         <div className=' border-[1px] cursor-pointer ' title='O Sequelize é um ORM(Object/Relational Mapper) baseado em Promise para Node. js e io. js, e suporta os dialetos PostgreSQL, MySQL, MariaDB, SQLite e MSSQL e recursos a transação, relacionamentos, replicação de leitura e muito mais.' ><Image src={sequelizeIcon} alt="sequelizeIcon" width='200px' height='200px' className='hover:scale-105 ' /></div>
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-2 ' title='O Mongoose é um ODM e fornece uma solução direta e baseada em esquema para modelar seus dados de aplicativos. Ele inclui conversão de tipo integrada, validação, criação de consulta, ganchos de lógica de negócios e muito mais, prontos para uso. ' ><Image src={mongooseIcon} alt="mongooseIcon" width='400px' height='320px' className='hover:scale-110' /></div>
-        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-5 ' title='Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.' ><Image src={firebaseIcon} alt="firebaseIcon" width='300px' height='300px' className='hover:scale-110 bg-cover ' /></div>
+        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-5 ' title='Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.' ><Image src={firebaseIcon} alt="firebaseIcon" width='380px' height='300px' className='hover:scale-110 bg-cover ' /></div>
       </div>
 
       <h3 className=' border-[1px] text-center text-3xl font-bold bg-[#F2EFEA] '>BACK-END</h3>
