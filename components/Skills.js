@@ -42,6 +42,7 @@ import typeormIcon from '../public/img/typeorm.webp'
 import prismaIcon from '../public/img/prisma.webp'
 import dockerIcon from '../public/img/docker.png'
 import reduxIcon from '../public/img/redux.jpeg'
+import postmanIcon from '../public/img/postman.png'
 
 export default function Skills() {
   return (
@@ -88,6 +89,7 @@ export default function Skills() {
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-8 ' title='A Amazon Web Services (ou AWS) existe de 2006 e oferece serviços de infraestrutura de TI para empresas por meio de serviços web – a chamada computação na nuvem, que nos dá a chance de trocar altos gastos com infraestrutura por preços que cabem no bolso. ' ><Image src={awsIcon} alt="awsIcon" width='300px' height='200px' className='hover:scale-110' /></div>
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-7 ' title='Heroku é uma plataforma em nuvem como um serviço que suporta várias linguagens de programação. Uma das primeiras plataformas em nuvem, o Heroku está em desenvolvimento desde junho de 2007, quando suportava apenas a linguagem de programação Ruby, mas agora suporta Java, Node.js, Scala, Clojure, Python, PHP e Go.' ><Image src={herokuIcon} alt="herokuIcon" width='200px' height='120px' className='hover:scale-110 ' /></div>
         <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-6 ' title='Docker é um conjunto de produtos de plataforma como serviço (PaaS) que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração. Eles podem se comunicar uns com os outros por meio de canais bem definidos. Todos os contêineres são executados por um único kernel do sistema operacional e, portanto, usam menos recursos do que as máquinas virtuais.' ><Image src={dockerIcon} alt="dockerIcon" width='200px' height='130px' className='hover:scale-105 ' /></div>
+        <div className=' border-[1px] cursor-pointer mt-[0.01em] pt-6 ' title='Postman é uma plataforma de API para desenvolvedores projetarem, construírem, testarem e iterarem suas APIs. Em fevereiro de 2023, o Postman relata ter mais de 25 milhões de usuários registrados e 75.000 APIs abertas, o que, segundo ele, constitui o maior hub público de APIs do mundo. A empresa está sediada em San Francisco e mantém um escritório em Bangalore, onde foi fundada.' ><Image src={postmanIcon} alt="postmanIcon" width='150px' height='150px' className='hover:scale-105 bg-cover ' /></div>
 
 
 
