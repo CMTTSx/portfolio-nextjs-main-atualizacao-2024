@@ -2,9 +2,10 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
+
 export const metadata: Metadata = {
-  title: 'Website Portfolio CALIL SOUSA MATTOS',
-  description: 'Website Portfolio CALIL SOUSA MATTOS',
+  title: 'CALIL SOUSA MATTOS Website Portfolio',
+  description: 'CALIL SOUSA MATTOS Website Portfolio',
 }
 
 export default function RootLayout({

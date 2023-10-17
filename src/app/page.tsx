@@ -1,9 +1,15 @@
-import Homepage from "./pages/Homepage"
+import React from 'react'
 
-export default function Home() {
+//Import Components
+import Navbar from './components/Navbar'
+
+function Home() {
   return (
-    <div>
-      <Homepage />
-    </div>
+   <>
+    <Navbar />
+   </>
+
   )
 }
+
+export default Home
