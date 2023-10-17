@@ -5,7 +5,6 @@ import Image from 'next/image';
 import euaFlagIcon from 'public/images/eua_flag.svg';
 import brFlagIcon from 'public/images/brasilflag.svg';
 import portfolioSVG from 'public/images/portfolio-svgrepo-com.svg';
-import LOGO from 'public/images/LOGOTIPO.png';
 
 function Navbar() {
     return (
@@ -16,10 +15,10 @@ function Navbar() {
                     <div className="flex flex-shrink-0 items-center space-x-4 text-white">
 
                         <div className='flex flex-row cursor-pointer'>
-                            <div className='p-0.5 border-[#00FF66] text-[#00FF66] border-2 hover:scale-110 '><h4>Currículo</h4></div>
+                            <div className='p-0.5 border-[#00E332] text-[#00E332] border-2 hover:scale-110 '><h4>Currículo</h4></div>
                         </div>
 
-                        <div className="flex flex-row px-10 cursor-pointer">
+                        <div className="flex flex-row cursor-pointer ">
                             <Image className='mx-2 hover:scale-110' src={euaFlagIcon} alt="euaFlagIcon" />
                             <Image className='mx-2 hover:scale-110' src={brFlagIcon} alt="brFlagIcon" />
                         </div>
