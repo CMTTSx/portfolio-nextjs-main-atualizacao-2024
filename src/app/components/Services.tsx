@@ -24,7 +24,7 @@ function Services() {
     <div>
 
       {/* CARDS SERVIÇOS */}
-      <div className="flex flex-auto flex-wrap justify-evenly w-[95%] mx-20 mt-[40rem] ">
+      <div className="flex flex-auto flex-wrap justify-evenly w-[95%] mx-20 mt-[40rem] overflow-hidden ">
 
         <div className=' w-[33%] cursor-pointer mb-20 '>
           <Image className=' mx-auto ' src={frontEndIcon} alt='frontEndIcon https://www.flaticon.com/free-icons/web-design' width={160} />
