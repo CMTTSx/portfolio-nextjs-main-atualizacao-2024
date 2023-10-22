@@ -19,7 +19,7 @@ function Profile() {
     <div className='w-full overflow-hidden '>
 
       <div className=' mt-[18rem] '>
-      <Image className='flex mx-[85rem] rounded-full border-4 w-[20rem] ' src={profilePIC} alt='profilePIC' />
+        <Image className='flex mx-[85rem] rounded-full border-4 w-[20rem] ' src={profilePIC} alt='profilePIC' />
       </div>
 
       <div className='mt-[-11rem] '>

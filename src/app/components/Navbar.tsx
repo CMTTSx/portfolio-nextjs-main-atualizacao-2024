@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <div>
 
-            <div className="w-full h-full flex flex-col justify-between fixed ">
+            <div className="w-full h-full flex flex-col justify-between fixed overflow-hidden ">
                 <header className="h-16 w-full flex items-left justify-end px-[2rem] bg-[#9BFF06]">
                     <div className="flex flex-shrink-0 items-center space-x-4 text-white">
 
