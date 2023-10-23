@@ -10,23 +10,6 @@ function Navbar() {
     return (
         <div>
 
-            <div className="w-full h-full flex flex-col justify-between fixed overflow-hidden ">
-                <header className="h-16 w-full flex items-left justify-end px-[2rem] bg-[#9BFF06]">
-                    <div className="flex flex-shrink-0 items-center space-x-4 text-white">
-
-                        <div className='flex flex-row cursor-pointer'>
-                            <div className='p-0.5 border-[#00E332] text-[#00E332] border-2 hover:scale-110 '><h4>Currículo</h4></div>
-                        </div>
-
-                        <div className="flex flex-row cursor-pointer ">
-                            <Image className='mx-2 hover:scale-110' src={euaFlagIcon} alt="euaFlagIcon" />
-                            <Image className='mx-2 hover:scale-110' src={brFlagIcon} alt="brFlagIcon" />
-                        </div>
-                    </div>
-                </header>
-
-            </div>
-
             <aside className="h-full w-[4rem] flex flex-col space-y-10 items-center justify-center bg-[#9BFF06] text-white fixed ">
                 <div title='Perfil' className=" h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" /></svg>
@@ -46,6 +29,23 @@ function Navbar() {
                     <Image src={portfolioSVG} alt='portfolioSVG' />
                 </div>
             </aside>
+
+            <header className="h-16 w-full flex items-left justify-end px-[2rem] bg-[#9BFF06]">
+                <div className="flex flex-shrink-0 items-center space-x-4 text-white">
+
+                    <div className='flex flex-row cursor-pointer'>
+                        <div className='p-0.5 border-[#00E332] text-[#00E332] border-2 hover:scale-110 '><h4>Currículo</h4></div>
+                    </div>
+
+                    <div className="flex flex-row cursor-pointer ">
+                        <Image className='mx-2 hover:scale-110' src={euaFlagIcon} alt="euaFlagIcon" />
+                        <Image className='mx-2 hover:scale-110' src={brFlagIcon} alt="brFlagIcon" />
+                    </div>
+                </div>
+            </header>
+
+
+
 
 
         </div>
