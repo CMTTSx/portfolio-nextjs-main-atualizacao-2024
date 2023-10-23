@@ -4,6 +4,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
 import Services from './components/Services'
+import Skills from './components/Skills'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
     <Navbar />
     <Profile />
     <Services />
+    <Skills />
    </>
 
   )
