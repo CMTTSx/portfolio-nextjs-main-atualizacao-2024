@@ -512,8 +512,8 @@ function Portfolio() {
                     </div>
                     {/*body*/}
                     <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={logisticaImageOriginal} alt='logisticaImageOriginal' className=' w-[150rem] h-[auto] object-cover pt-[123rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl '>Site de Logística</h1>
+                      <Image src={logisticaImageOriginal} alt='logisticaImageOriginal' className=' w-[150rem] h-[auto] object-cover pt-[143rem] ' />
+                      <h1 className=' pt-10 font-bold text-3xl '>Site Cargo Logística</h1>
                     </div>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200">
