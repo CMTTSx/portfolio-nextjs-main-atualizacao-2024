@@ -72,7 +72,7 @@ function Portfolio() {
                     </div>
                     {/*body*/}
                     <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={siteFreteRapidoImageOriginal} alt='siteFreteRapidoImageOriginal' className=' w-[150rem] h-[auto] object-contain pt-[135rem] ' />
+                      <Image src={siteFreteRapidoImageOriginal} alt='siteFreteRapidoImageOriginal' className=' w-[150rem] h-[auto] object-contain pt-[156rem] ' />
                       <h1 className=' pt-10 font-bold text-3xl '>Site Super Frete Rápido</h1>
                     </div>
                     {/*footer*/}
@@ -316,7 +316,7 @@ function Portfolio() {
                     </div>
                     {/*body*/}
                     <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' className=' w-[150rem] h-[auto] object-cover ' />
+                      <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' className=' w-[150rem] h-[auto] object-cover pt-[5rem] ' />
                       <h1 className=' pt-10 font-bold text-3xl '>Loja Virtual Artwork Figures</h1>
                     </div>
                     {/*footer*/}
