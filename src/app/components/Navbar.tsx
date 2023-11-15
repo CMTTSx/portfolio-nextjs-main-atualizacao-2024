@@ -8,7 +8,7 @@ import portfolioSVG from 'public/images/portfolio-svgrepo-com.svg';
 
 function Navbar() {
     return (
-        <div>
+        <div className=' overflow-x-hidden ' >  
 
             <aside className="h-full w-[4rem] flex flex-col space-y-10 items-center justify-center bg-[#9BFF06] text-white fixed ">
                 <div title='Perfil' className=" h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">

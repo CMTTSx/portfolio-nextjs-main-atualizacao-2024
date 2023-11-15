@@ -52,11 +52,11 @@ import swaggerIcon from 'public/images/swagger.svg';
 
 function Skills() {
   return (
-    <div className=' w-full mt-20 pt-[20rem] p-20 overflow-hidden ' >
+    <div className=' w-full mt-20 pt-[20rem] p-20 overflow-x-hidden ' >
 
-      <h2 className=' w-[100%] text-center font-bold text-3xl mb-20 bg-[#f0f0f0] ' >FRONT-END</h2>
+      <h2 className=' w-[100%] sm:ml-6 text-center font-bold text-3xl mb-20 bg-[#f0f0f0] '>FRONT-END</h2>
 
-      <div className="flex flex-wrap px-[6rem] mb-20 ">
+      <div className="flex flex-wrap sm:ml-[1.8rem] sm360:ml-[3rem] sm2:ml-[3.5rem] sm3:ml-[4rem] sm4:ml-[5rem] sm:mr-[-4rem] lg:ml-[0rem] xl:ml-[3rem] lg:px-[6rem] mb-20 ">
 
         <div className=' w-[150px] h-[150px] mr-5 mb-20 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer ' title='HTML, versão 5, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.' >
           <Image src={html5Icon} alt='html5Icon' className=' w-[80%] mx-auto pt-5 ' />
@@ -102,66 +102,66 @@ function Skills() {
 
       </div>
 
-      <h2 className=' w-[100%] text-center font-bold text-3xl mb-20 bg-[#f0f0f0] ' >BASE DE DADOS</h2>
+      <h2 className=' w-[100%] sm:ml-6 text-center font-bold text-3xl mb-20 bg-[#f0f0f0] '>BASE DE DADOS</h2>
 
-      <div className="flex flex-wrap px-[6rem] pt-20 mb-20 ">
+      <div className="flex flex-wrap sm:ml-[1.8rem] sm360:ml-[3rem] sm2:ml-[3.5rem] sm3:ml-[4rem] sm4:ml-[5rem] sm:mr-[-4rem] lg:ml-[0rem] xl:ml-[3rem] lg:px-[6rem] mb-20 ">
 
-        <div className=' w-[150px] h-[150px] mr-5  pt-5 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 pt-5 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.' >
           <Image src={mysqlIcon} alt='mysqlIcon' className=' w-[100%] mx-auto  ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5  pt-5 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 pt-5 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto.' >
           <Image src={postgresIcon} alt='postgresIcon' className=' w-[100%] mx-auto  ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5  pt-8 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 pt-8 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.' >
           <Image src={mongodbIcon} alt='mongodbIcon' className=' w-[100%] mx-auto  ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5  border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='TypeORM é um ORM que pode ser executado nas plataformas NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo e Electron e pode ser usado com TypeScript e JavaScript (ES5, ES6, ES7, ES8). Seu objetivo é sempre oferecer suporte aos recursos JavaScript mais recentes e fornecer recursos adicionais que o ajudem a desenvolver qualquer tipo de aplicativo que use bancos de dados - desde pequenos aplicativos com algumas tabelas até aplicativos corporativos de grande escala com vários bancos de dados.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='TypeORM é um ORM que pode ser executado nas plataformas NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo e Electron e pode ser usado com TypeScript e JavaScript (ES5, ES6, ES7, ES8). Seu objetivo é sempre oferecer suporte aos recursos JavaScript mais recentes e fornecer recursos adicionais que o ajudem a desenvolver qualquer tipo de aplicativo que use bancos de dados - desde pequenos aplicativos com algumas tabelas até aplicativos corporativos de grande escala com vários bancos de dados.' >
           <Image src={typeormIcon} alt='typeormIcon' className=' w-[80%] mx-auto pt-5 ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5  border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Prisma é um Node.js e TypeScript ORM de próxima geração para PostgreSQL, MySQL, SQL Server, SQLite, MongoDB e CockroachDB. Ele fornece segurança de tipo, migrações automatizadas e um modelo de dados intuitivo.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Prisma é um Node.js e TypeScript ORM de próxima geração para PostgreSQL, MySQL, SQL Server, SQLite, MongoDB e CockroachDB. Ele fornece segurança de tipo, migrações automatizadas e um modelo de dados intuitivo.' >
           <Image src={prismaIcon} alt='prismaIcon' className=' w-[80%] mx-auto pt-12 ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5  border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='O Sequelize é um ORM(Object/Relational Mapper) baseado em Promise para Node. js e io. js, e suporta os dialetos PostgreSQL, MySQL, MariaDB, SQLite e MSSQL e recursos a transação, relacionamentos, replicação de leitura e muito mais.'>
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='O Sequelize é um ORM(Object/Relational Mapper) baseado em Promise para Node. js e io. js, e suporta os dialetos PostgreSQL, MySQL, MariaDB, SQLite e MSSQL e recursos a transação, relacionamentos, replicação de leitura e muito mais.'>
           <Image src={sequelizeIcon} alt='sequelizeIcon' className=' w-[80%] mx-auto pt-12 ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5  border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='O Mongoose é um ODM e fornece uma solução direta e baseada em esquema para modelar seus dados de aplicativos. Ele inclui conversão de tipo integrada, validação, criação de consulta, ganchos de lógica de negócios e muito mais, prontos para uso.'>
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='O Mongoose é um ODM e fornece uma solução direta e baseada em esquema para modelar seus dados de aplicativos. Ele inclui conversão de tipo integrada, validação, criação de consulta, ganchos de lógica de negócios e muito mais, prontos para uso.'>
           <Image src={mongooseIcon} alt='mongooseIcon' className=' w-[100%] mx-auto pt-5 ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5  border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Firebase é uma plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web. Era originalmente uma empresa independente fundada em 2011. Em 2014, o Google adquiriu a plataforma e agora é sua oferta principal para o desenvolvimento de aplicativos.' >
           <Image src={firebaseIcon} alt='firebaseIcon' className=' w-[100%] mx-auto pt-8 ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5  border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='O Hibernate é um framework para o mapeamento objeto-relacional escrito na linguagem Java, mas também é disponível em .Net com o nome NHibernate. Este framework facilita o mapeamento dos atributos entre uma base tradicional de dados relacionais e o modelo objeto de uma aplicação, mediante o uso de arquivos (XML) ou anotações Java (veja Annotation (java)).' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='O Hibernate é um framework para o mapeamento objeto-relacional escrito na linguagem Java, mas também é disponível em .Net com o nome NHibernate. Este framework facilita o mapeamento dos atributos entre uma base tradicional de dados relacionais e o modelo objeto de uma aplicação, mediante o uso de arquivos (XML) ou anotações Java (veja Annotation (java)).' >
           <Image src={hibernateIcon} alt='hibernateIcon' className=' w-[100%] mx-auto pt-8 ' />
         </div>
 
 
       </div>
 
-      <h2 className=' w-[100%] text-center font-bold text-3xl mb-20 bg-[#f0f0f0] ' >BACK-END</h2>
+      <h2 className=' w-[100%] sm:ml-6 text-center font-bold text-3xl mb-20 bg-[#f0f0f0] '>BACK-END</h2>
 
-      <div className="flex flex-wrap px-[6rem] pt-20 mb-20 ">
+      <div className="flex flex-wrap sm:ml-[1.8rem] sm360:ml-[3rem] sm2:ml-[3.5rem] sm3:ml-[4rem] sm4:ml-[5rem] sm:mr-[-4rem] lg:ml-[0rem] xl:ml-[3rem] lg:px-[6rem] mb-20 ">
 
-        <div className=' w-[150px] h-[150px] mr-5  border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='API RESTful é uma interface que fornece dados em um formato padronizado baseado em requisições HTTP. Ela fornece dados para essas aplicações, facilitando o cadastro e o acesso. API RESTful fica parada até que acontece uma requisição.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20  border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='API RESTful é uma interface que fornece dados em um formato padronizado baseado em requisições HTTP. Ela fornece dados para essas aplicações, facilitando o cadastro e o acesso. API RESTful fica parada até que acontece uma requisição.' >
           <Image src={restApiIcon} alt='restApiIcon' className=' w-[50%] mx-auto pt-10  ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5 pt-8 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 pt-8 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.' >
           <Image src={nodeIcon} alt='nodeIcon' className=' w-[100%] mx-auto  ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5 pt-8 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web. Foi lançado como software livre e de código aberto sob a Licença MIT. É um dos mais populares frameworks para servidores em Node.js.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 pt-8 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web. Foi lançado como software livre e de código aberto sob a Licença MIT. É um dos mais populares frameworks para servidores em Node.js.' >
           <Image src={expressIcon} alt='expressIcon' className=' w-[100%] mx-auto  ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5 pt-8 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 pt-8 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='NestJS é um framework Node.js de código aberto destinado ao desenvolvimento de aplicativos do lado do servidor. Foi criado por Kamil Mysliwiec e lançado em 2017. Sob o capô, por padrão, o NestJS faz uso do framework Express.js, sendo também compatível com o Fastify. Sua arquitetura é fortemente inspirada no Angular.' >
           <Image src={nestJsIcon} alt='nestJsIcon' className=' w-[100%] mx-auto  ' />
         </div>
-        <div className=' w-[150px] h-[150px] mr-5 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation.' >
+        <div className=' w-[150px] h-[150px] mr-5 sm:mb-20 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirido pela empresa Oracle Corporation.' >
           <Image src={javaIcon} alt='javaIcon' className=' w-[50%] mx-auto  ' />
         </div>
 
       </div>
 
-      <h2 className=' w-[100%] text-center font-bold text-3xl mb-20 bg-[#f0f0f0] ' >DESENVOLVIMENTO MOBILE</h2>
+      <h2 className=' w-[100%] sm:ml-5 text-center font-bold lg:text-3xl mb-20 bg-[#f0f0f0] '>DESENVOLVIMENTO MOBILE</h2>
 
-      <div className="flex flex-wrap px-[6rem] pt-20 ">
+      <div className="flex flex-wrap sm:ml-[1.8rem] sm360:ml-[3rem] sm2:ml-[3.5rem] sm3:ml-[4rem] sm4:ml-[5rem] sm:mr-[-4rem] lg:ml-[0rem] xl:ml-[3rem] lg:px-[6rem] mb-20 ">
 
         <div className=' w-[150px] h-[150px] mr-5 mb-20 pt-2 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.' >
           <Image src={reactNativeIcon} alt='reactNativeIcon' className=' w-[100%] mx-auto  ' />
@@ -169,9 +169,9 @@ function Skills() {
 
       </div>
 
-      <h2 className=' w-[100%] text-center font-bold text-3xl mb-20 bg-[#f0f0f0] ' >TECNOLOGIAS RELACIONADAS</h2>
+      <h2 className=' w-[100%] sm:ml-5 text-center font-bold lg:text-3xl mb-20 bg-[#f0f0f0] '>TECNOLOGIAS RELACIONADAS</h2>
 
-      <div className="flex flex-wrap px-[6rem] pt-20 font-bold ">
+      <div className="flex flex-wrap sm:ml-[1.8rem] sm360:ml-[3rem] sm2:ml-[3.5rem] sm3:ml-[4rem] sm4:ml-[5rem] sm:mr-[-4rem] lg:ml-[0rem] xl:ml-[3rem] lg:px-[6rem] mb-20 ">
 
         <div className=' w-[150px] h-[150px] mr-5 mb-20 pt-5 border-2 border-[#f0f0f0] hover:scale-110 cursor-pointer' title='A prototipagem é a quarta e última fase do processo de Design Thinking e tem como função validar as ideias geradas na fase anterior, a Ideação. É o momento de unir propostas, refinar conceitos e colocar a mão na massa. Seu objetivo é revelar problemas de design, usabilidade ou adequação.' >
           <Image src={prototipacaoIcon} alt='prototipacaoIcon' className=' w-[50%] mx-auto py-auto ' />
