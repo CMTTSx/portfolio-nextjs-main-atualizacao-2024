@@ -5,10 +5,12 @@ import Image from 'next/image';
 import euaFlagIcon from 'public/images/eua_flag.svg';
 import brFlagIcon from 'public/images/brasilflag.svg';
 import portfolioSVG from 'public/images/portfolio-svgrepo-com.svg';
+import contactIcon from 'public/images/contact-Icon.svg';
 
 function Navbar() {
+
     return (
-        <div className=' overflow-x-hidden ' >  
+        <div className=' overflow-x-hidden ' >
 
             <aside className="h-full w-[4rem] flex flex-col space-y-10 items-center justify-center bg-[#9BFF06] text-white fixed ">
                 <div title='Perfil' className=" h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
@@ -27,6 +29,10 @@ function Navbar() {
 
                 <div title='Portfolio' className="h-8 w-8 flex items-center justify-center rounded-lg cursor-pointer hover:text-white hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
                     <Image src={portfolioSVG} alt='portfolioSVG' />
+                </div>
+
+                <div title='Contato' className="h-8 w-8 flex items-center justify-center rounded-lg cursor-pointer hover:text-white hover:bg-white  hover:duration-300 hover:ease-linear focus:bg-white">
+                    <Image src={contactIcon} alt='contactIcon' />
                 </div>
             </aside>
 
