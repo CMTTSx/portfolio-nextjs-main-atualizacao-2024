@@ -246,7 +246,7 @@ function Portfolio() {
             onClick={() => setShowModalOdontoCare(true)}
           >
             <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={OdontoCareImage} alt='OdontoCareImage' className=' object-contain	' />
+              <Image src={OdontoCareImage} alt='OdontoCareImage' className=' object-fill 2xl:w-[40rem] 2xl:h-[15rem]	' />
             </div>
           </button>
           {showModalOdontoCare ? (
@@ -268,7 +268,7 @@ function Portfolio() {
                     {/*body*/}
                     <div className="relative p-6 flex-auto w-[auto] ">
                       <Image src={OdontoCareImage} alt='OdontoCareImage' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' sm2:mt-[5rem] font-bold text-3xl text-center '>Sistema de Atendimento e Gestão Odontológica</h1>
+                      <h1 className=' sm2:mt-[5rem] sm360:mt-[5rem] font-bold text-3xl text-center '>Sistema de Atendimento e Gestão Odontológica</h1>
                     </div>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 border-blueGray-200">
@@ -295,7 +295,7 @@ function Portfolio() {
             onClick={() => setShowModalArtworkFigures(true)}
           >
             <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={ArtworkFiguresImage} alt='ArtworkFiguresImage' className=' object-contain md:w-[150rem]	' />
+              <Image src={ArtworkFiguresImage} alt='ArtworkFiguresImage' className=' object-fill w-[50rem] lg:h-[15rem]	' />
             </div>
           </button>
           {showModalArtworkFigures ? (
@@ -317,7 +317,7 @@ function Portfolio() {
                     {/*body*/}
                     <div className="relative p-6 flex-auto w-[auto] ">
                       <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl text-center '>Artwork Figures</h1>
+                      <h1 className=' pt-10 font-bold text-3xl text-center '>Loja Virtual Artwork Figures</h1>
                     </div>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 border-blueGray-200">
@@ -344,7 +344,7 @@ function Portfolio() {
             onClick={() => setShowModalEcommerceVega(true)}
           >
             <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={EcommerceVegaImage} alt='EcommerceVegaImage' className=' object-contain	' />
+              <Image src={EcommerceVegaImage} alt='EcommerceVegaImage' className=' object-fill w-[50rem] h-[17rem]	' />
             </div>
           </button>
           {showModalEcommerceVega ? (
@@ -366,7 +366,7 @@ function Portfolio() {
                     {/*body*/}
                     <div className="relative p-6 flex-auto w-[auto] ">
                       <Image src={EcommerceVegaImageOriginal} alt='EcommerceVegaImageOriginal' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' pt-12 font-bold text-3xl text-center '>Ecommerce Loja Virtual Vega</h1>
+                      <h1 className=' pt-12 font-bold text-3xl text-center '>Loja Virtual Vega</h1>
                     </div>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 border-blueGray-200">
@@ -512,7 +512,7 @@ function Portfolio() {
                     </div>
                     {/*body*/}
                     <div className="relative p-6 flex-auto w-[auto] ">
-                    <Image src={logisticaImageOriginal} alt='logisticaImageOriginal' className=' w-[150rem] h-[auto] object-contain sm:pt-[-2rem] sm360:pt-[5rem] sm2:pt-[9rem] sm3:pt-[15rem] sm4:pt-[32rem] md:pt-[115rem] lg:pt-[175rem] xl:pt-[175rem] 2xl:pt-[120rem] ' />
+                      <Image src={logisticaImageOriginal} alt='logisticaImageOriginal' className=' w-[150rem] h-[auto] object-contain sm:pt-[-2rem] sm360:pt-[5rem] sm2:pt-[9rem] sm3:pt-[15rem] sm4:pt-[32rem] md:pt-[115rem] lg:pt-[175rem] xl:pt-[175rem] 2xl:pt-[120rem] ' />
                       <h1 className=' pt-10 font-bold text-3xl text-center '>Site de Logística </h1>
                     </div>
                     {/*footer*/}
