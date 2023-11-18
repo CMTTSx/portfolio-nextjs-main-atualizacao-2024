@@ -7,6 +7,8 @@ import euaFlagIcon from 'public/images/eua_flag.svg';
 import brFlagIcon from 'public/images/brasilflag.svg';
 import portfolioSVG from 'public/images/portfolio-svgrepo-com.svg';
 import contactIcon from 'public/images/contact-Icon.svg';
+import cvIcon from 'public/images/curriculum-vitae-portfolio-svgrepo-com.svg'
+import Link from 'next/link';
 
 function Navbar() {
 
@@ -314,8 +316,13 @@ function Navbar() {
             <header className="h-16 w-full flex items-left justify-end px-[2rem] bg-[#9BFF06]">
                 <div className="flex flex-shrink-0 items-center space-x-4 text-white">
 
-                    <div className='flex flex-row cursor-pointer'>
-                        <div className='p-0.5 border-[#00E332] text-[#00E332] border-2 hover:scale-110 '><h4>Currículo</h4></div>
+                    <div className='flex flex-row cursor-pointer pt-0.2 '>
+                        
+                        <div className=' flex flex-row text-[#4F9D69] hover:scale-110 '>
+                            <Image src={cvIcon} alt='cvIcon' className=' w-10 ' />
+                            
+                            <Link href="/CV PT-BR_2024.pdf" download="cv"><h4 className='pt-2' >Currículo</h4></Link>
+                        </div>
                     </div>
 
                     <div className="flex flex-row cursor-pointer ">
