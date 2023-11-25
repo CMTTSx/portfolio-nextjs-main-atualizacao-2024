@@ -30,7 +30,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery.matches) {
             window.scrollTo({
-                top: 785,
+                top: 880,
                 behavior: "smooth",
             })
         }
@@ -83,7 +83,7 @@ function Navbar() {
 
     const goToSkills = () => {
         window.scrollTo({
-            top: 2530,
+            top: 2800,
             behavior: "smooth",
         })
 
@@ -91,7 +91,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery.matches) {
             window.scrollTo({
-                top: 6000,
+                top: 4700,
                 behavior: "smooth",
             })
         }
@@ -100,7 +100,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery360s.matches) {
             window.scrollTo({
-                top: 5350,
+                top: 4700,
                 behavior: "smooth",
             })
         }
@@ -109,7 +109,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery375s.matches) {
             window.scrollTo({
-                top: 5350,
+                top: 4700,
                 behavior: "smooth",
             })
         }
@@ -118,7 +118,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery390s.matches) {
             window.scrollTo({
-                top: 5300,
+                top: 4600,
                 behavior: "smooth",
             })
         }
@@ -127,7 +127,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery411s.matches) {
             window.scrollTo({
-                top: 5300,
+                top: 4600,
                 behavior: "smooth",
             })
         }
@@ -136,7 +136,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery768s.matches) {
             window.scrollTo({
-                top: 5250,
+                top: 4600,
                 behavior: "smooth",
             })
         }
@@ -145,7 +145,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery1024s.matches) {
             window.scrollTo({
-                top: 3700,
+                top: 2800,
                 behavior: "smooth",
             })
         }
@@ -154,7 +154,7 @@ function Navbar() {
 
     const goToPortfolio = () => {
         window.scrollTo({
-            top: 5630,
+            top: 6300,
             behavior: "smooth",
         })
 
@@ -162,7 +162,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery.matches) {
             window.scrollTo({
-                top: 17300,
+                top: 16600,
                 behavior: "smooth",
             })
         }
@@ -180,7 +180,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery375p.matches) {
             window.scrollTo({
-                top: 17300,
+                top: 16600,
                 behavior: "smooth",
             })
         }
@@ -198,7 +198,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery411p.matches) {
             window.scrollTo({
-                top: 17250,
+                top: 16500,
                 behavior: "smooth",
             })
         }
@@ -207,7 +207,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery768p.matches) {
             window.scrollTo({
-                top: 12100,
+                top: 11500,
                 behavior: "smooth",
             })
         }
@@ -216,7 +216,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery1024p.matches) {
             window.scrollTo({
-                top: 7950,
+                top: 7000,
                 behavior: "smooth",
             })
         }
@@ -225,7 +225,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery1280p.matches) {
             window.scrollTo({
-                top: 6000,
+                top: 6900,
                 behavior: "smooth",
             })
         }
