@@ -37,33 +37,32 @@ function Portfolio() {
 
 
   return (
-    <div>
+    <div className=' sm:ml-[4rem] ' >
 
-      <h2 className=' lg:w-100% sm:pl-[3.5rem] sm2:pl-[4rem] lg:pl-[3rem] text-center font-bold text-3xl mb-20 bg-[#00FF80] '>PORTFOLIO</h2>
+      <h2 className=' text-center sm:mt-20 font-bold text-3xl mb-20 bg-[#00FF80] '>PORTFOLIO</h2>
 
-      <div className="flex flex-wrap sm:ml-[5rem] lg:ml-[8rem] 2xl:ml-[10rem]   ">
-
+      <div className="  sm:flex sm:flex-col lg:grid grid-cols-3 gap-4">
         {/*Site Frete Rápido*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalFreteRapido(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={siteFreteRapidoImage} alt='siteFreteRapidoImage' className=' object-contain	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={siteFreteRapidoImage} alt='siteFreteRapidoImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalFreteRapido ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalFreteRapido(false)}
@@ -71,14 +70,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={siteFreteRapidoImageOriginal} alt='siteFreteRapidoImageOriginal' className=' w-[150rem] h-[auto] object-contain sm:pt-[12rem] sm360:pt-[22rem] sm2:pt-[25rem] sm3:pt-[15rem] sm4:pt-[32rem] md:pt-[115rem] lg:pt-[175rem] xl:pt-[175rem] 2xl:pt-[160rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl text-center '>Site Super Frete Rápido</h1>
-                    </div>
+                    <Image src={siteFreteRapidoImageOriginal} alt='siteFreteRapidoImageOriginal' className='sm:pt-[50rem] sm2:pt-[51rem] sm3:pt-[54rem] sm4:pt-[58rem] sm5:pt-[63rem] md:pt-[147rem] lg:mt-[61rem] ' />
+                    <h1 className=' pt-10 font-bold text-3xl bg-white text-center '>Site Super Frete Rápido</h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalFreteRapido(false)}
                       >
@@ -92,27 +89,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/*App Giro Certo*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalGiroCerto(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={giroCertoImage} alt='giroCertoImage' className=' object-contain	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={giroCertoImage} alt='giroCertoImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalGiroCerto ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" bg-white relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalGiroCerto(false)}
@@ -120,14 +118,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={giroCertoImage} alt='giroCertoImage' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl text-center '>App Giro Certo</h1>
-                    </div>
+                    <Image src={giroCertoImage} alt='giroCertoImage' />
+                    <h1 className=' pt-10 font-bold text-3xl bg-white text-center '>App Giro Certo</h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalGiroCerto(false)}
                       >
@@ -141,27 +137,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/*App Crypto-Wallet*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalCryptoWallet(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={cryptoAppImage} alt='cryptoAppImage' className=' object-contain	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={cryptoAppImage} alt='cryptoAppImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalCryptoWallet ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" bg-white relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalCryptoWallet(false)}
@@ -169,14 +166,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={cryptoAppImageOriginal} alt='cryptoAppImageOriginal' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl text-center '>App Crypto Wallet</h1>
-                    </div>
+                    <Image src={cryptoAppImageOriginal} alt='cryptoAppImageOriginal' />
+                    <h1 className=' pt-10 font-bold text-3xl text-center '>App Crypto Wallet</h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalCryptoWallet(false)}
                       >
@@ -190,27 +185,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/*App Gestão*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalAppGestao(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={AppGestaoImage} alt='AppGestaoImage' className=' object-contain	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={AppGestaoImage} alt='AppGestaoImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalAppGestao ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" bg-white relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalAppGestao(false)}
@@ -218,13 +214,11 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={AppGestaoImage} alt='AppGestaoImage' className=' w-[150rem] h-[auto] object-contain sm:mt-[-20rem]  2xl:mt-[-24rem] ' />
-                    </div>
+                    <Image src={AppGestaoImage} alt='AppGestaoImage' />
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalAppGestao(false)}
                       >
@@ -238,27 +232,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/*OdontoCare*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalOdontoCare(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={OdontoCareImage} alt='OdontoCareImage' className=' object-fill 2xl:w-[40rem] 2xl:h-[15rem]	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={OdontoCareImage} alt='OdontoCareImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalOdontoCare ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" bg-white relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalOdontoCare(false)}
@@ -266,14 +261,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={OdontoCareImage} alt='OdontoCareImage' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' sm2:mt-[5rem] sm360:mt-[5rem] font-bold text-3xl text-center '>Sistema de Atendimento e Gestão Odontológica</h1>
-                    </div>
+                    <Image src={OdontoCareImage} alt='OdontoCareImage' />
+                    <h1 className=' pt-10 font-bold text-3xl bg-white text-center '>Sistema Odontológico de Atendimento e Gestão</h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalOdontoCare(false)}
                       >
@@ -287,27 +280,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/*Artwork Figures*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalArtworkFigures(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={ArtworkFiguresImage} alt='ArtworkFiguresImage' className=' object-fill w-[50rem] lg:h-[15rem]	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={ArtworkFiguresImage} alt='ArtworkFiguresImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalArtworkFigures ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" bg-white relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalArtworkFigures(false)}
@@ -315,14 +309,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl text-center '>Loja Virtual Artwork Figures</h1>
-                    </div>
+                    <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' />
+                    <h1 className=' pt-10 font-bold text-3xl text-center '>Loja Virtual Artwork Figures</h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalArtworkFigures(false)}
                       >
@@ -336,27 +328,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/*Ecommerce Vega*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalEcommerceVega(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={EcommerceVegaImage} alt='EcommerceVegaImage' className=' object-fill w-[50rem] h-[17rem]	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={EcommerceVegaImage} alt='EcommerceVegaImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalEcommerceVega ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" bg-white relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalEcommerceVega(false)}
@@ -364,14 +357,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={EcommerceVegaImageOriginal} alt='EcommerceVegaImageOriginal' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' pt-12 font-bold text-3xl text-center '>Loja Virtual Vega</h1>
-                    </div>
+                    <Image src={EcommerceVegaImageOriginal} alt='EcommerceVegaImageOriginal' />
+                    <h1 className=' pt-10 font-bold text-3xl text-center '>Loja Virtual Vega Produtos Íntimos </h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalEcommerceVega(false)}
                       >
@@ -385,27 +376,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/* Site Multinvest*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalMultiInvest(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={MultinvestImage} alt='MultinvestImage' className=' object-contain	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={MultinvestImage} alt='MultinvestImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalMultiInvest ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" bg-white relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalMultiInvest(false)}
@@ -413,14 +405,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={MultinvestImage} alt='MultinvestImage' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl text-center '>Site de Investimento </h1>
-                    </div>
+                    <Image src={MultinvestImage} alt='MultinvestImage' />
+                    <h1 className=' pt-10 font-bold text-3xl text-center '>Site de Investimento MultiInvest</h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalMultiInvest(false)}
                       >
@@ -434,27 +424,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/* Site DalaCoin*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalDalaCoin(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={lpDalacoinImage} alt='lpDalacoinImage' className=' object-contain	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={lpDalacoinImage} alt='lpDalacoinImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalDalaCoin ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className=" bg-white relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalDalaCoin(false)}
@@ -462,14 +453,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={lpDalacoinImage} alt='lpDalacoinImage' className=' w-[150rem] h-[auto] object-contain mt-[-20rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl text-center '>Site de Criptomoeda </h1>
-                    </div>
+                    <Image src={lpDalacoinImage} alt='lpDalacoinImage' />
+                    <h1 className=' pt-10 font-bold text-3xl text-center '>Plataforma de Investimento em Criptomoedas DalaCoin</h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalDalaCoin(false)}
                       >
@@ -483,27 +472,28 @@ function Portfolio() {
             </>
           ) : null}
         </>
+
         {/*Site Logistica*/}
         <>
           <button
-            className="text-white font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
+            className=" ml-auto mr-auto text-white font-bold uppercase text-sm px-1 py-3 outline-none focus:outline-none mr-1 lg:mb-10 ease-linear transition-all duration-150"
             type="button"
             onClick={() => setShowModalLogistica(true)}
           >
-            <div className=' sm:w-[11rem] sm360:w-[13.5rem] sm2:w-[14.5rem] sm3:w-[15.5rem] sm4:w-[16.5rem] md:w-[39rem] lg:w-[20rem] xl:w-[30rem] lg:mx-2 mb-10 mt-5 hover:scale-105 cursor-pointer '>
-              <Image src={logisticaImage} alt='logisticaImage' className=' object-contain	' />
+            <div className=' hover:scale-105 cursor-pointer '>
+              <Image src={logisticaImage} alt='logisticaImage' className='sm:w-[15rem] sm:h-[10rem] md:w-[30rem] md:h-[19.8rem] ' />
             </div>
           </button>
           {showModalLogistica ? (
             <>
               <div
-                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                className=" justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  focus:outline-none"
               >
-                <div className="relative w-auto my-10 mx-auto max-w-5xl">
+                <div className="  relative w-auto my-10 mx-auto max-w-5xl">
                   {/*content*/}
-                  <div className=" pt-[20rem] border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <div className=" rounded-lg relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" pt-20 flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalLogistica(false)}
@@ -511,14 +501,12 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <div className="relative p-6 flex-auto w-[auto] ">
-                      <Image src={logisticaImageOriginal} alt='logisticaImageOriginal' className=' w-[150rem] h-[auto] object-contain sm:pt-[-2rem] sm360:pt-[5rem] sm2:pt-[9rem] sm3:pt-[15rem] sm4:pt-[32rem] md:pt-[115rem] lg:pt-[175rem] xl:pt-[175rem] 2xl:pt-[120rem] ' />
-                      <h1 className=' pt-10 font-bold text-3xl text-center '>Site de Logística </h1>
-                    </div>
+                    <Image src={logisticaImageOriginal} alt='logisticaImageOriginal' className='sm:pt-[35rem] sm2:pt-[42rem] sm3:pt-[45rem] sm4:pt-[48rem] sm5:pt-[50rem] md:pt-[121rem] lg:mt-[48rem] 2xl:mt-[36rem] ' />
+                    <h1 className=' pt-10 font-bold text-3xl text-center bg-white '>Site Cargo Logística</h1>
                     {/*footer*/}
-                    <div className="flex items-center justify-end p-6 border-blueGray-200">
+                    <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
                       <button
-                        className="text-red-500 font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="text-red-500 font-bold uppercase px-1 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                         onClick={() => setShowModalLogistica(false)}
                       >

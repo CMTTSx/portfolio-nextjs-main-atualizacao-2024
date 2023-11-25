@@ -30,7 +30,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery.matches) {
             window.scrollTo({
-                top: 1000,
+                top: 785,
                 behavior: "smooth",
             })
         }
@@ -39,7 +39,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery360s.matches) {
             window.scrollTo({
-                top: 1000,
+                top: 750,
                 behavior: "smooth",
             })
         }
@@ -48,7 +48,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery375s.matches) {
             window.scrollTo({
-                top: 950,
+                top: 750,
                 behavior: "smooth",
             })
         }
@@ -57,16 +57,16 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery390s.matches) {
             window.scrollTo({
-                top: 950,
+                top: 730,
                 behavior: "smooth",
             })
         }
-        
+
         const mediaQuery411s = window.matchMedia('(width: 411px)')
         // Check if the media query is true
         if (mediaQuery411s.matches) {
             window.scrollTo({
-                top: 950,
+                top: 700,
                 behavior: "smooth",
             })
         }
@@ -75,7 +75,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery768s.matches) {
             window.scrollTo({
-                top: 950,
+                top: 650,
                 behavior: "smooth",
             })
         }
@@ -91,7 +91,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery.matches) {
             window.scrollTo({
-                top: 5730,
+                top: 6000,
                 behavior: "smooth",
             })
         }
@@ -100,7 +100,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery360s.matches) {
             window.scrollTo({
-                top: 5720,
+                top: 5350,
                 behavior: "smooth",
             })
         }
@@ -109,7 +109,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery375s.matches) {
             window.scrollTo({
-                top: 5700,
+                top: 5350,
                 behavior: "smooth",
             })
         }
@@ -118,7 +118,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery390s.matches) {
             window.scrollTo({
-                top: 5650,
+                top: 5300,
                 behavior: "smooth",
             })
         }
@@ -127,7 +127,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery411s.matches) {
             window.scrollTo({
-                top: 5650,
+                top: 5300,
                 behavior: "smooth",
             })
         }
@@ -136,11 +136,19 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery768s.matches) {
             window.scrollTo({
-                top: 5000,
+                top: 5250,
                 behavior: "smooth",
             })
         }
 
+        const mediaQuery1024s = window.matchMedia('(width: 1024px)')
+        // Check if the media query is true
+        if (mediaQuery1024s.matches) {
+            window.scrollTo({
+                top: 3700,
+                behavior: "smooth",
+            })
+        }
 
     };
 
@@ -154,7 +162,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery.matches) {
             window.scrollTo({
-                top: 18100,
+                top: 17300,
                 behavior: "smooth",
             })
         }
@@ -163,7 +171,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery360p.matches) {
             window.scrollTo({
-                top: 18050,
+                top: 17300,
                 behavior: "smooth",
             })
         }
@@ -172,7 +180,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery375p.matches) {
             window.scrollTo({
-                top: 18050,
+                top: 17300,
                 behavior: "smooth",
             })
         }
@@ -181,7 +189,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery390p.matches) {
             window.scrollTo({
-                top: 18000,
+                top: 17300,
                 behavior: "smooth",
             })
         }
@@ -190,7 +198,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery411p.matches) {
             window.scrollTo({
-                top: 17900,
+                top: 17250,
                 behavior: "smooth",
             })
         }
@@ -199,7 +207,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery768p.matches) {
             window.scrollTo({
-                top: 10200,
+                top: 12100,
                 behavior: "smooth",
             })
         }
@@ -208,7 +216,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery1024p.matches) {
             window.scrollTo({
-                top: 7300,
+                top: 7950,
                 behavior: "smooth",
             })
         }
@@ -217,7 +225,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery1280p.matches) {
             window.scrollTo({
-                top: 6450,
+                top: 6000,
                 behavior: "smooth",
             })
         }
@@ -284,6 +292,15 @@ function Navbar() {
             })
         }
 
+        const mediaQuery1024c = window.matchMedia('(width: 1024px)')
+        // Check if the media query is true
+        if (mediaQuery1024c.matches) {
+            window.scrollTo({
+                top: 25000,
+                behavior: "smooth",
+            })
+        }
+
     };
     return (
         <div className=' overflow-x-hidden ' >
@@ -317,11 +334,11 @@ function Navbar() {
                 <div className="flex flex-shrink-0 items-center space-x-4 text-white">
 
                     <div className='flex flex-row cursor-pointer pt-0.2 '>
-                        
+
                         <div className=' flex flex-row text-[#4F9D69] hover:scale-110 '>
                             <Image src={cvIcon} alt='cvIcon' className=' w-10 ' />
-                            
-                            <Link href="/CV PT-BR_2024.pdf" download="cv"><h4 className='pt-2' >Currículo</h4></Link>
+
+                            <Link href="/CV PT-BR_2024.pdf" download="cv"><h4 className=' sm:pt-[0.5rem] ' >Currículo</h4></Link>
                         </div>
                     </div>
 

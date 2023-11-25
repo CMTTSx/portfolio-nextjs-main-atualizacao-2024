@@ -13,21 +13,18 @@ const irish = Irish_Grover({
 })
 
 
-
 function Profile() {
   return (
-    <div className='w-full overflow-x-hidden '>
+    <div className='flex ml-[4rem] sm:pb-[18rem] lg:pb-[27rem] w-90% overflow-x-hidden '>
 
-      <div className=' sm:mt-[10rem] lg:mt-[8rem] '>
-        <Image className='flex sm:mx-[6.8rem] sm2:mx-[8.8rem] sm360:ml-[8rem] sm4:mx-[9.7rem] md:mx-[18em] md:w-[13rem] lg:mx-[47em] sm:w-[10rem] lg:w-[10rem] 2xl:w-[15rem] xl:ml-[60rem] 2xl:ml-[90rem] 2xl:mt-[15rem] ' src={profilePIC} alt='profilePIC' />
-      </div>
-
-      <div className=' sm:mt-[3rem] lg:mt-[-6rem] lg:pb-[2rem] '>
-        <p className=" sm:text-xl lg:text-3xl lg:pt-[-5rem] sm:ml-[5rem] sm2:ml-[6.9rem] sm360:ml-[6.5rem] sm4:ml-[8rem] md:ml-[17rem] lg:ml-[-5rem] md:text-2xl 2xl:text-5xl lg:px-[18rem] xl:ml-[5rem] 2xl:ml-[13rem] 2xl:mt-[-10rem] text-left text-[#53DA00E6] font-bold ">CALIL SOUSA MATTOS</p>
-        <p className=" lg:text-xl lg:pt-1 sm:ml-[5.1rem] sm2:ml-[7rem] sm360:ml-[6.5rem] sm4:ml-[8.1rem] md:text-lg md:ml-[17.5rem] lg:ml-[-6.1rem] lg:px-[21rem] xl:px-[30.5rem] 2xl:text-2xl 2xl:ml-[6.5rem] lg:text-left font-bold ">Desenvolvedor de Software</p>
+      <div>
+        <Image className=" sm:w-[10rem] sm:mx-auto sm:mt-[8rem] lg:mt-[15rem] lg:mx-[70%] 2xl:mx-[75%] 2xl:w-[13rem] min-[1980px]:mx-[80%]  " src={profilePIC} alt='profilePIC' />
+        <p className=" sm:text-center sm:mt-[2rem] lg:text-2xl lg:ml-[-22rem] lg:mt-[-6rem] 2xl:mt-[-9rem] 2xl:ml-[-30rem] xl:text-4xl 2xl:text-4xl 2xl:text-5xl 3xl:ml-[-16%] text-[#53DA00E6] font-bold ">CALIL SOUSA MATTOS</p>
+        <p className=" sm:text-center lg:ml-[-21.8rem] xl:text-xl 2xl:text-xl 2xl:ml-[-31rem] 3xl:ml-[16.5rem] 3xl:ml-[-22.5rem] 3xl:text-2xl font-semibold ">Desenvolvedor de Software</p>
         <div className={irish.className}>
-          <p className="lg:text-md sm:pt-10 lg:pt-8 sm:ml-[5rem] md:ml-[7rem] md:mr-[4rem] sm:mr-[1rem] lg:ml-[10rem] 2xl:text-2xl 2xl:ml-[15rem] 2xl:mr-[40rem] lg:mr-[25rem] text-justify font-bold font-irish text-[#363537]  ">Crio e desenvolvo design de produtos digitais como Sistemas,
-            Lojas Virtuais, Landing Pages, Sites e Aplicativos. Atualmente atuo criando produtos baseado em human-centered.</p>
+          <p className=" sm:mt-[2rem] sm:ml-[1rem] sm:mr-[1rem] lg:ml-[7rem] lg:mr-[25rem] 2xl:text-xl 2xl:ml-[10rem] 2xl:mr-[35%] 3xl:ml-[30rem] 2xl:mr-[25%] text-justify font-bold font-irish text-[#363537]  ">Crio e desenvolvo design de produtos digitais como Sistemas,
+            Lojas Virtuais, Landing Pages, Sites e Aplicativos. Atualmente atuo criando produtos baseado em human-centered.
+          </p>
         </div>
       </div>
 

@@ -11,22 +11,34 @@ const config: Config = {
       screens: {
         'sm': '320px',
         // => @media (min-width: 320px) { ... }
-        'sm360': '360px',
+        
+        'sm2': '360px',
         // => @media (min-width: 360px) { ... }
-        'sm2': '375px',
+
+        'sm3': '375px',
         // => @media (min-width: 375px) { ... }
-        'sm3': '390px',
+
+        'sm4': '390px',
         // => @media (min-width: 390px) { ... }
-        'sm4': '411px',
+
+        'sm5': '411px',
         // => @media (min-width: 411px) { ... }
+
+
         'md': '768px',
         // => @media (min-width: 768px) { ... }
+  
         'lg': '1024px',
         // => @media (min-width: 1024px) { ... }
+  
         'xl': '1280px',
         // => @media (min-width: 1280px) { ... }
+  
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
+        
+        '3xl': '2560px',
+        // => @media (min-width: 2560px) { ... }
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
