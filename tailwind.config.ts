@@ -1,6 +1,13 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
+  i18n: {
+    // all the locales supported in the application
+    locales: ['pt-br', 'en'], 
+    // the default locale to be used when visiting
+    // a non-localized route (e.g. `/about`)   
+    defaultLocale: 'pt-br'
+  },
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',

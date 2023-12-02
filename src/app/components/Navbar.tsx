@@ -114,6 +114,15 @@ function Navbar() {
             })
         }
 
+        const mediaQueryMobileHeight = window.matchMedia('(width: 383px)')
+        // Check if the media query is true
+        if (mediaQueryMobileHeight.matches) {
+            window.scrollTo({
+                top: 4700,
+                behavior: "smooth",
+            })
+        }
+
         const mediaQuery390s = window.matchMedia('(width: 390px)')
         // Check if the media query is true
         if (mediaQuery390s.matches) {
@@ -179,6 +188,15 @@ function Navbar() {
         const mediaQuery375p = window.matchMedia('(width: 375px)')
         // Check if the media query is true
         if (mediaQuery375p.matches) {
+            window.scrollTo({
+                top: 16600,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery383p = window.matchMedia('(width: 383px)')
+        // Check if the media query is true
+        if (mediaQuery383p.matches) {
             window.scrollTo({
                 top: 16600,
                 behavior: "smooth",
@@ -265,6 +283,15 @@ function Navbar() {
             })
         }
 
+        const mediaQuery383c = window.matchMedia('(width: 383px)')
+        // Check if the media query is true
+        if (mediaQuery383c.matches) {
+            window.scrollTo({
+                top: 25000,
+                behavior: "smooth",
+            })
+        }
+
         const mediaQuery390c = window.matchMedia('(width: 390px)')
         // Check if the media query is true
         if (mediaQuery390c.matches) {
@@ -302,8 +329,9 @@ function Navbar() {
         }
 
     };
+
     return (
-        <div className=' overflow-x-hidden ' >
+        <div className=' overflow-x-hidden min-w-320 ' >
 
             <aside className="h-full w-[4rem] flex flex-col space-y-10 items-center justify-center bg-[#9BFF06] text-white fixed ">
 
@@ -343,8 +371,8 @@ function Navbar() {
                     </div>
 
                     <div className="flex flex-row cursor-pointer ">
-                        <Image className='mx-2 hover:scale-110' src={euaFlagIcon} alt="euaFlagIcon" />
-                        <Image className='mx-2 hover:scale-110' src={brFlagIcon} alt="brFlagIcon" />
+                        <Link href='/en-us'><Image className='mx-2 hover:scale-110' src={euaFlagIcon} alt="euaFlagIcon" /></Link>
+                        <Link href='/' ><Image className='mx-2 hover:scale-110' src={brFlagIcon} alt="brFlagIcon" /></Link>
                     </div>
                 </div>
             </header>

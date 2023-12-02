@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 //Import Components
@@ -10,6 +11,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function Home() {
+  
   return (
    <>
     <Navbar />

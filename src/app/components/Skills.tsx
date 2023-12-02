@@ -52,7 +52,7 @@ import swaggerIcon from 'public/images/swagger.svg';
 
 function Skills() {
   return (
-    <div className=' sm:ml-[4rem] lg:ml-[3.3%] ' >
+    <div className=' sm:ml-[4rem] lg:ml-[3.3%] min-w-320 ' >
 
       <h2 className=' sm:text-center sm:mt-20 font-bold text-3xl mb-10 bg-[#00FF80] '>HABILIDADES</h2>
 
