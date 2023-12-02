@@ -83,7 +83,7 @@ function Navbar() {
 
     const goToSkills = () => {
         window.scrollTo({
-            top: 2800,
+            top: 4600,
             behavior: "smooth",
         })
 
@@ -114,9 +114,9 @@ function Navbar() {
             })
         }
 
-        const mediaQueryMobileHeight = window.matchMedia('(width: 383px)')
+        const mediaQuery383s = window.matchMedia('(width: 383px)')
         // Check if the media query is true
-        if (mediaQueryMobileHeight.matches) {
+        if (mediaQuery383s.matches) {
             window.scrollTo({
                 top: 4700,
                 behavior: "smooth",
@@ -163,7 +163,7 @@ function Navbar() {
 
     const goToPortfolio = () => {
         window.scrollTo({
-            top: 6300,
+            top: 16500,
             behavior: "smooth",
         })
 
@@ -251,7 +251,7 @@ function Navbar() {
 
     const goToContact = () => {
         window.scrollTo({
-            top: 10000,
+            top: 25000,
             behavior: "smooth",
 
         })
