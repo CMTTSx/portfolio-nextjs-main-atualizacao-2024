@@ -83,7 +83,7 @@ function Navbar() {
 
     const goToSkills = () => {
         window.scrollTo({
-            top: 4600,
+            top: 4500,
             behavior: "smooth",
         })
 
@@ -153,6 +153,24 @@ function Navbar() {
         const mediaQuery1024s = window.matchMedia('(width: 1024px)')
         // Check if the media query is true
         if (mediaQuery1024s.matches) {
+            window.scrollTo({
+                top: 2800,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery1280s = window.matchMedia('(width: 1280px)')
+        // Check if the media query is true
+        if (mediaQuery1280s.matches) {
+            window.scrollTo({
+                top: 2800,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery1536s = window.matchMedia('(width: 1536px)')
+        // Check if the media query is true
+        if (mediaQuery1536s.matches) {
             window.scrollTo({
                 top: 2800,
                 behavior: "smooth",
@@ -244,6 +262,15 @@ function Navbar() {
         if (mediaQuery1280p.matches) {
             window.scrollTo({
                 top: 6900,
+                behavior: "smooth",
+            })
+        }
+
+        const mediaQuery1536p = window.matchMedia('(width: 1536px)')
+        // Check if the media query is true
+        if (mediaQuery1536p.matches) {
+            window.scrollTo({
+                top: 6300,
                 behavior: "smooth",
             })
         }
