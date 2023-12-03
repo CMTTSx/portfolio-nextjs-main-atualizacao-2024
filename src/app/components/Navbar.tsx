@@ -13,6 +13,11 @@ import cvIcon from 'public/images/curriculum-vitae-portfolio-svgrepo-com.svg'
 
 function Navbar() {
 
+    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+        e.preventDefault(); //prevent the default behavior
+      };
+
+
     return (
         <div className=' overflow-x-hidden min-w-320 ' >
 
