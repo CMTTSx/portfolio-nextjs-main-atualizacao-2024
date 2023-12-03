@@ -11,7 +11,7 @@ import { AiFillGithub } from 'react-icons/ai'
 export default function Contact() {
 
   return (
-    <div className=' sm:ml-[4rem] sm:mt-20 2xl:ml-[4rem] min-w-320 ' >
+    <div id="contato" className=' sm:ml-[4rem] sm:mt-20 2xl:ml-[4rem] min-w-320 ' >
 
       <h1 className=' text-4xl text-center sm:font-bold lg:font-normal lg:hover:font-bold cursor-pointer ' >Entre em Contato</h1>
 
