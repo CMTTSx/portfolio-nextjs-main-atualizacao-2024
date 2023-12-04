@@ -49,6 +49,8 @@ import postmanIcon from 'public/images/postman.svg';
 import jUnitIcon from 'public/images/JUnit.webp';
 import mavenIcon from 'public/images/maven.svg';
 import swaggerIcon from 'public/images/swagger.svg';
+import pythonIcon from 'public/images/python.png';
+import javafxIcon from 'public/images/Javafx.png';
 
 function Skills() {
   return (
@@ -337,6 +339,16 @@ function Skills() {
           title='Swagger é um conjunto de ferramentas para desenvolvedores de API da SmartBear Software e uma especificação anterior na qual a especificação OpenAPI se baseia. O projeto Swagger API foi criado em 2011 por Tony Tam, cofundador técnico do site de dicionários Wordnik.' >
           <Image src={swaggerIcon} alt='swaggerIcon' className=' w-[60%] mx-auto pt-5 ' />
           <h5 className='text-center pt-1 ' >Swagger</h5>
+        </div>
+
+        <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
+          title=' Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ' >
+          <Image src={pythonIcon} alt='pythonIcon' className=' w-[60%] mx-auto pt-[4rem] ' />
+        </div>
+
+        <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
+          title=' JavaFX é uma plataforma de software multimídia desenvolvida pela Sun Microsystems baseada em java para a criação e disponibilização de Aplicação Rica para Internet que pode ser executada em vários dispositivos diferentes. A versão atual permite a criação para desktop, browser e dispositivos móveis. ' >
+          <Image src={javafxIcon} alt='Javafx' className=' w-[60%] mx-auto pt-[3.5rem] ' />
         </div>
 
       </div>
