@@ -15,7 +15,7 @@ const irish = Irish_Grover({
 
 function Profile() {
   return (
-    <div id="profile" className='flex ml-[4rem] sm:pb-[18rem] lg:pb-[27rem] w-90%  min-w-320 '>
+    <div id="perfil" className='flex ml-[4rem] sm:pb-[18rem] lg:pb-[27rem] w-90%  min-w-320 '>
 
       <div>
         <Image className=" sm:w-[10rem] sm:mx-auto sm:mt-[8rem] lg:mt-[15rem] lg:mx-[70%] 2xl:mx-[75%] 2xl:w-[13rem] min-[1980px]:mx-[80%]  " src={profilePIC} alt='profilePIC' />
