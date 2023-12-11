@@ -128,6 +128,15 @@ function Navbar() {
             })
         }
 
+        const mediaQuery390p = window.matchMedia('(width: 390px)')
+        // Check if the media query is true
+        if (mediaQuery390p.matches) {
+            window.scrollTo({
+                top: 18000,
+                behavior: "smooth",
+            })
+        }
+
         const mediaQuery411p = window.matchMedia('(width: 411px)')
         // Check if the media query is true
         if (mediaQuery411p.matches) {
