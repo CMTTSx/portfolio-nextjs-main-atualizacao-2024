@@ -253,7 +253,7 @@ function Portfolio() {
                   {/*content*/}
                   <div className=" rounded-lg bg-white relative flex flex-col w-full outline-none focus:outline-none">
                     {/*header*/}
-                    <div className=" flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <div className=" flex items-start justify-between p-5 rounded-t">
                       <button
                         className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                         onClick={() => setShowModalOdontoCare(false)}
@@ -261,7 +261,7 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <Image src={OdontoCareImage} alt='OdontoCareImage' />
+                    <Image src={OdontoCareImage} alt='OdontoCareImage' className=' xl:mt-10 ' />
                     <h1 className=' pt-10 font-bold text-3xl bg-white text-center '>Sistema Odontológico de Atendimento e Gestão</h1>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
@@ -309,7 +309,7 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
-                    <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' />
+                    <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' className=' xl:mt-[10rem] ' />
                     <h1 className=' pt-10 font-bold text-3xl text-center '>Loja Virtual Artwork Figures</h1>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
