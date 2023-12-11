@@ -49,7 +49,7 @@ function Services({ serviceRef }: any) {
         </div>
 
         <div className=" sm:ml-[0rem] sm:mr-[0rem] md:mx-[10rem] md:mt-1 lg:ml-[10%] md:p sm:w-[100%] md:w-[50%] h-[30rem] lg:mr-[0rem] lg:w-[80%] 2xl:ml-[7%] 2xl:w-[80%]  ">
-          <Image className=' mx-auto pt-10 ' src={backEndIcon} alt='backEndIcon https://www.flaticon.com/free-icons/web-design' width={150} height={150} />
+          <Image className=' mx-auto pt-10 ' src={sistemasIcon} alt='sistemasIcon https://www.flaticon.com/free-icons/web-design' width={150} height={150} />
           <h3 className=' text-center mt-5 font-bold '>DESENVOLVIMENTO DE SISTEMAS</h3>
           <div className={mohave.className} >
             <p className=' text-justify sm:ml-[5%] sm:mr-[5%] sm:mt-[8%] '>Criação de Sistemas e ERP’s, totalmente customizados. Auxilia o gestor da empresa a melhorar os processos internos e integrar as atividades de diferentes setores, como vendas, finanças, estoque e recursos humanos. O resultado é o acesso a insights valiosos, que contribuem para uma tomada de decisão acertada.
