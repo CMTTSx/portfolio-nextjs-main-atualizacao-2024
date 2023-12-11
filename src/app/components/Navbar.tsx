@@ -41,11 +41,11 @@ function Navbar() {
             behavior: "smooth",
         })
 
-        const mediaQuery = window.matchMedia('(width: 320px)')
+        const mediaQuery320s = window.matchMedia('(width: 320px)')
         // Check if the media query is true
-        if (mediaQuery.matches) {
+        if (mediaQuery320s.matches) {
             window.scrollTo({
-                top: 4700,
+                top: 5700,
                 behavior: "smooth",
             })
         }
@@ -54,7 +54,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery360s.matches) {
             window.scrollTo({
-                top: 4700,
+                top: 5600,
                 behavior: "smooth",
             })
         }
@@ -62,7 +62,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery375s.matches) {
             window.scrollTo({
-                top: 4700,
+                top: 5600,
                 behavior: "smooth",
             })
         }
@@ -71,7 +71,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery390s.matches) {
             window.scrollTo({
-                top: 4600,
+                top: 5600,
                 behavior: "smooth",
             })
         }
@@ -80,7 +80,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery411s.matches) {
             window.scrollTo({
-                top: 4600,
+                top: 5600,
                 behavior: "smooth",
             })
         }
@@ -89,7 +89,7 @@ function Navbar() {
         // Check if the media query is true
         if (mediaQuery768s.matches) {
             window.scrollTo({
-                top: 4600,
+                top: 5600,
                 behavior: "smooth",
             })
         }
