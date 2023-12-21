@@ -20,6 +20,7 @@ import MultinvestImage from 'public/images/LP-MultiInvest.png';
 import lpDalacoinImage from 'public/images/lp_DalaCoin.png';
 import logisticaImage from 'public/images/logistica.png';
 import logisticaImageOriginal from 'public/images/LP_CARGO LOGISTICA.png';
+import Link from 'next/link';
 
 
 function Portfolio() {
@@ -70,7 +71,9 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
+                    <Link href={'https://super-frete-rapido-site.vercel.app/'}>
                     <Image src={siteFreteRapidoImageOriginal} alt='siteFreteRapidoImageOriginal' className='sm:pt-[50rem] sm2:pt-[51rem] sm3:pt-[54rem] sm4:pt-[58rem] sm5:pt-[63rem] md:pt-[147rem] lg:mt-[61rem] ' />
+                    </Link>
                     <h1 className=' pt-10 font-bold text-3xl bg-white text-center '>Site Super Frete Rápido</h1>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
@@ -261,7 +264,9 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
+                    <Link href={'https://odonto-care-system.vercel.app/'} >
                     <Image src={OdontoCareImage} alt='OdontoCareImage' className=' xl:mt-10 ' />
+                    </Link>
                     <h1 className=' pt-10 font-bold text-3xl bg-white text-center '>Sistema Odontológico de Atendimento e Gestão</h1>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
@@ -309,7 +314,9 @@ function Portfolio() {
                       </button>
                     </div>
                     {/*body*/}
+                    <Link href={'https://artwork-figures.vercel.app/'} >
                     <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' className=' xl:mt-[10rem] ' />
+                    </Link>
                     <h1 className=' pt-10 font-bold text-3xl text-center '>Loja Virtual Artwork Figures</h1>
                     {/*footer*/}
                     <div className="flex items-center justify-end p-6 bg-white border-blueGray-200">
