@@ -31,7 +31,6 @@ const config: Config = {
         'sm5': '411px',
         // => @media (min-width: 411px) { ... }
 
-
         'md': '768px',
         // => @media (min-width: 768px) { ... }
   

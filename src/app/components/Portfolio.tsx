@@ -1,5 +1,4 @@
 "use client"
-import React, { Fragment, MouseEventHandler, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image';
@@ -21,6 +20,7 @@ import lpDalacoinImage from 'public/images/lp_DalaCoin.png';
 import logisticaImage from 'public/images/logistica.png';
 import logisticaImageOriginal from 'public/images/LP_CARGO LOGISTICA.png';
 import Link from 'next/link';
+import React from 'react';
 
 
 function Portfolio() {
@@ -40,7 +40,7 @@ function Portfolio() {
   return (
     <section id="portfolio" className=' sm:ml-[4rem] min-w-320 '  >
 
-      <h2 className=' text-center sm:mt-20 font-bold text-3xl mb-20 bg-[#00FF80] '>PORTFOLIO</h2>
+      <h2 className=' text-center sm:mt-20 md:mt-[-50rem] font-bold text-3xl mb-20 bg-[#00FF80] '>PORTFOLIO</h2>
 
       <div className="  sm:flex sm:flex-col lg:grid grid-cols-3 gap-4">
         {/*Site Frete Rápido*/}
@@ -72,7 +72,7 @@ function Portfolio() {
                     </div>
                     {/*body*/}
                     <Link href={'https://super-frete-rapido-site.vercel.app/'}>
-                    <Image src={siteFreteRapidoImageOriginal} alt='siteFreteRapidoImageOriginal' className='sm:pt-[50rem] sm2:pt-[51rem] sm3:pt-[54rem] sm4:pt-[58rem] sm5:pt-[63rem] md:pt-[147rem] lg:mt-[61rem] ' />
+                      <Image src={siteFreteRapidoImageOriginal} alt='siteFreteRapidoImageOriginal' className='sm:pt-[50rem] sm2:pt-[51rem] sm3:pt-[54rem] sm4:pt-[58rem] sm5:pt-[63rem] md:pt-[147rem] lg:mt-[61rem] ' />
                     </Link>
                     <h1 className=' pt-10 font-bold text-3xl bg-white text-center '>Site Super Frete Rápido</h1>
                     {/*footer*/}
@@ -265,7 +265,7 @@ function Portfolio() {
                     </div>
                     {/*body*/}
                     <Link href={'https://odonto-care-system.vercel.app/'} >
-                    <Image src={OdontoCareImage} alt='OdontoCareImage' className=' xl:mt-10 ' />
+                      <Image src={OdontoCareImage} alt='OdontoCareImage' className=' xl:mt-10 ' />
                     </Link>
                     <h1 className=' pt-10 font-bold text-3xl bg-white text-center '>Sistema Odontológico de Atendimento e Gestão</h1>
                     {/*footer*/}
@@ -315,7 +315,7 @@ function Portfolio() {
                     </div>
                     {/*body*/}
                     <Link href={'https://artwork-figures.vercel.app/'} >
-                    <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' className=' xl:mt-[10rem] ' />
+                      <Image src={ArtworkFiguresImageOriginal} alt='ArtworkFiguresImageOriginal' className=' xl:mt-[10rem] ' />
                     </Link>
                     <h1 className=' pt-10 font-bold text-3xl text-center '>Loja Virtual Artwork Figures</h1>
                     {/*footer*/}

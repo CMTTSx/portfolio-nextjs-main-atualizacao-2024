@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image';
 
 import html5Icon from 'public/images/html5.svg';
@@ -93,7 +92,6 @@ function Skills() {
           <h5 className='text-center pt-4 font-bold '>React</h5>
         </div>
 
-
         <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
           title='Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.' >
           <Image src={nextjsIcon} alt='nextjsIcon' className=' sm:w-[80%] mx-auto pt-[4rem] ' />
@@ -125,9 +123,9 @@ function Skills() {
       </div>
 
 
-      <h2 className=' font-bold text-2xl mb-20 text-center bg-[#f0f0f0] '>BASE DE DADOS</h2>
+      <h2 className=' font-bold text-2xl sm:mt-[5rem] md:mt-[-40rem] lg:mt-[-80rem] mb-20 text-center bg-[#f0f0f0] mt-[-85rem] '>BASE DE DADOS</h2>
 
-      <div className=" mb-20 md:pl-[5.5rem] lg:pl-[5rem] lg:pr-[5rem] xl:pl-[10rem] 2xl:pl-[10rem] 2xl:pr-[6rem] gap-20 sm:flex sm:flex-col md:grid grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-9 flex-wrap ">
+      <div className=" sm:mt-[5rem] md:pl-[5.5rem] lg:pl-[5rem] lg:pr-[5rem] xl:pl-[10rem] 2xl:pl-[10rem] 2xl:pr-[6rem] gap-20 sm:flex sm:flex-col md:grid grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-9 flex-wrap ">
 
         <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
           title='O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.' >
@@ -178,9 +176,9 @@ function Skills() {
 
       </div>
 
-      <h2 className=' font-bold text-2xl mb-20 text-center bg-[#f0f0f0] '>BACK-END</h2>
+      <h2 className=' font-bold text-2xl sm:mt-[5rem] md:mt-[-40rem] lg:mt-[-80rem] mb-20 text-center bg-[#f0f0f0] mt-[-85rem] '>BACK-END</h2>
 
-      <div className=" mb-20 md:pl-[5.5rem] lg:pl-[5rem] lg:pr-[5rem] xl:pl-[10rem] 2xl:pl-[10rem] 2xl:pr-[6rem] gap-20 sm:flex sm:flex-col md:grid grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-9 flex-wrap ">
+      <div className=" sm:mt-[5rem] md:pl-[5.5rem] lg:pl-[5rem] lg:pr-[5rem] xl:pl-[10rem] 2xl:pl-[10rem] 2xl:pr-[6rem] gap-20 sm:flex sm:flex-col md:grid grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-9 flex-wrap ">
 
         <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
           title='API RESTful é uma interface que fornece dados em um formato padronizado baseado em requisições HTTP. Ela fornece dados para essas aplicações, facilitando o cadastro e o acesso. API RESTful fica parada até que acontece uma requisição.' >
@@ -209,10 +207,10 @@ function Skills() {
 
       </div>
 
-      <h2 className=' font-bold text-2xl mb-20 text-center bg-[#f0f0f0] '>DESENVOLVIMENTO MOBILE</h2>
+      <h2 className=' font-bold text-2xl sm:mt-[5rem] md:mt-[-40rem] lg:mt-[-95rem] mb-20 text-center bg-[#f0f0f0] mt-[-85rem] '>DESENVOLVIMENTO MOBILE</h2>
 
 
-      <div className=" mb-20 md:pl-[5.5rem] lg:pl-[5rem] lg:pr-[5rem] xl:pl-[10rem] 2xl:pl-[10rem] 2xl:pr-[6rem] gap-20 sm:flex sm:flex-col md:grid grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-9 flex-wrap ">
+      <div className=" sm:mt-[5rem] md:pl-[5.5rem] lg:pl-[5rem] lg:pr-[5rem] xl:pl-[10rem] 2xl:pl-[10rem] 2xl:pr-[6rem] gap-20 sm:flex sm:flex-col md:grid grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-9 flex-wrap ">
 
         <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
           title='React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa.' >
@@ -221,10 +219,10 @@ function Skills() {
 
       </div>
 
-      <h2 className=' font-bold text-2xl mb-20 text-center bg-[#f0f0f0] '>TECNOLOGIAS RELACIONADAS</h2>
+      <h2 className=' font-bold text-2xl sm:mt-[5rem] md:mt-[-40rem] lg:mt-[-110rem] mb-20 text-center bg-[#f0f0f0] mt-[-85rem] '>TECNOLOGIAS RELACIONADAS</h2>
 
 
-      <div className=" mb-20 md:pl-[5.5rem] lg:pl-[5rem] lg:pr-[5rem] xl:pl-[10rem] 2xl:pl-[10rem] 2xl:pr-[6rem] gap-20 sm:flex sm:flex-col md:grid grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-9 flex-wrap ">
+      <div className=" sm:mt-[5rem] md:pl-[5.5rem] lg:pl-[5rem] lg:pb-[10rem] lg:pr-[5rem] xl:pl-[10rem] 2xl:pl-[10rem] 2xl:pr-[6rem] gap-20 sm:flex sm:flex-col md:grid grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-9 flex-wrap ">
 
         <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
           title='A prototipagem é a quarta e última fase do processo de Design Thinking e tem como função validar as ideias geradas na fase anterior, a Ideação. É o momento de unir propostas, refinar conceitos e colocar a mão na massa. Seu objetivo é revelar problemas de design, usabilidade ou adequação.' >
@@ -344,11 +342,6 @@ function Skills() {
         <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
           title=' Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. ' >
           <Image src={pythonIcon} alt='pythonIcon' className=' w-[60%] mx-auto pt-[4rem] ' />
-        </div>
-
-        <div className=' border-2 sm:w-[10rem] sm:mx-auto md:mx-0 w-[10rem] h-[10rem] hover:scale-110 cursor-pointer '
-          title=' JavaFX é uma plataforma de software multimídia desenvolvida pela Sun Microsystems baseada em java para a criação e disponibilização de Aplicação Rica para Internet que pode ser executada em vários dispositivos diferentes. A versão atual permite a criação para desktop, browser e dispositivos móveis. ' >
-          <Image src={javafxIcon} alt='Javafx' className=' w-[60%] mx-auto pt-[3.5rem] ' />
         </div>
 
       </div>
