@@ -1,7 +1,6 @@
 import { Irish_Grover } from 'next/font/google'
 import { Mohave } from 'next/font/google'
 import 'animate.css';
-
 import Image from 'next/image'
 import profilePIC from 'public/images/Foto_perfil.svg'
 
@@ -10,10 +9,10 @@ const irish = Irish_Grover({
   weight: '400'
 })
 
-
 function Profile() {
+
   return (
-    <div id="perfil" className='flex ml-[4rem] sm:pb-[18rem] lg:pb-[27rem] w-90% min-w-320 '>
+    <div className='flex ml-[4rem] sm:pb-[18rem] lg:pb-[27rem] w-90% min-w-320 '>
 
       <div>
         <div className='animate__animated animate__zoomIn'>
