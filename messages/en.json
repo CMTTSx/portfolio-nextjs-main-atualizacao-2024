@@ -1,0 +1,111 @@
+{
+  "ProfilePage": {
+    "position": "Software Engineer",
+    "description": "I create and develop design of digital products such as Systems, Virtual Stores, Landing Pages, Websites and Applications. Currently I work creating products based on human-centered."
+
+  },
+  "Navbar": {
+    "cv": "Curriculum",
+    "profileTitle": "Profile",
+    "servicesTitle": "Services",
+    "skillsTitle": "Skills",
+    "portfolioTitle": "Portfolio",
+    "contactTitle": "Contact"
+
+  },
+  "ServicesPage": {
+    "title": "Services",
+    "frontEndTitle": "FRONT-END DEVELOPER",
+    "frontEndDescription": "It works by developing the interface (application screens), all the high-level logic of the application such as login, local data persistence, makes access to the endpoints that the webservice provides and shows everything to the user.",
+    "backEndTitle": "BACK-END DEVELOPER",
+    "backEndDescription": "It works in the back-end in charge of planning, building, implementing and maintaining the technological structure that constitutes the basis of a website. Without this work, nothing on the internet can work, since everything is integrated into the mechanism connected to the servers.",
+    "devSystemsTitle": "SYSTEMS DEVELOPER",
+    "devSystemsDescription": "Creation of Systems and ERP's, fully customized. It assists the company's manager in improving internal processes and integrating the activities of different sectors, such as sales, finance, inventory, and human resources. The result is access to valuable insights that contribute to sound decision-making.",
+    "devAppTitle": "APP DEVELOPER",
+    "devAppDescription": "It programs, codes, and tests on Android and iOS platforms. Performs the maintenance of the systems, making any necessary corrections, in order to meet the needs of the users. Develops assembly, debugging and testing of programs, performing maintenance services on the programs already developed.",
+    "Site&HotsiteTitle": "Site & Hotsite Developer",
+    "Site&HotsiteDescription": "Developer of Websites and Hotsites, using the best practices and technologies. With Professional and Responsive Layout, and with all the features and needs of the client.",
+    "LandingPagesTitle": "LANDING PAGE DEVELOPER",
+    "LandingPagesDescription": "A Landing Page is a page that has all the elements aimed at converting the visitor into a Lead, Opportunity or Customer. Also known as landing pages or conversion pages, Landing Pages are widely used in Digital Marketing campaigns, as they usually have high conversion rates.",
+    "uiUxTitle": "UI | UX",
+    "uiUxDescription": "UI Design has as its main focus the interface of a particular application or website, UX Design observes this and other aspects, ranging from the path that a user takes to reach their final goal to previous experiences that a person has had with that product or service, which can have an impact.",
+    "seoTitle": "SEO",
+    "seoDescription": "Positioning websites through certain keywords on the first page of search engines (Google, Bing, Yahoo, etc.), applying complex and feasible strategies to adapt to search engine algorithms.",
+    "secInfoTitle": "CYBERSECURITY SPECIALIST",
+    "secInfoDescription": "Acting as Offensive (Pentest) and Defensive (Blue Team) Security Analyst. with penetration testing, vulnerability analysis, protection of confidential data, implementation of centralized security platforms for control, monitoring and neutralization of threats in the network, endpoints and distraction of possible attackers."
+
+  },
+  "skillsPage": {
+    "title": "Skills",
+    "frontEndTitle": "FRONT-END",
+    "htmlSubtitle": "HTML, version 5, is a hypertext markup language for presenting and structuring content on the web.",
+    "cssSubtitle": "With CSS, version 3. One can create unique styles for their web projects by changing various design aspects in the page layout.",
+    "jsSubtitle": "JavaScript is a structured, high-level scripted interpreted programming language with weak, multi-paradigm dynamic typing. Along with HTML and CSS, JavaScript is one of the three main technologies of the World Wide Web.",
+    "typescriptSubtitle": "TypeScript is an open-source programming language developed by Microsoft. It is a strict syntactic superset of JavaScript and adds optional static typing to the language. Types provide a way to describe the shape of an object, providing better documentation and allowing TypeScript to validate that your code is working correctly.",
+    "reduxSubtitle": "Redux is a library for storing JavaScript application states, created by Dan Abramov. It was born through an implementation of Flux, an architecture created by Facebook to contribute to User Interface applications, using the concept of unidirectional data flow. When we develop applications using Javascript, we always have to deal with state management. Redux came to meet this need to simplify the control of the states of an application.",
+    "reactSubtitle": "React is an open-source JavaScript library focused on creating user interfaces on web pages.",
+    "nextjsSubtitle": "Next.js is an open-source React front-end development web framework created by Vercel that enables functionalities such as server-side rendering and static website generation for React-based web applications.",
+    "tailwindSubtitle": "Tailwind is a collection of beautiful, fully responsive UI components designed and developed by us, the creators of Tailwind CSS. It has hundreds of ready-to-use examples and is guaranteed to help you find the perfect starting point for what you want to build.",
+    "bootstrapSubtitle": "Bootstrap is an open-source web framework for developing interface and front-end components for websites and web applications using HTML, CSS and JavaScript, based on design templates for typography, improving the user experience on a user-friendly and responsive website.",
+    "materialUiSubtitle": "React component library for agile and easy development. Build your own design.",
+    "materialDesignSubtitle": "Material Design (codenamed Quantum Paper) is a free design language developed by Google with the aim of unifying and standardizing the graphical interfaces of the company's systems (set of guidelines or guidelines), announced in 2014 as an improvement in the 'card' of the assistant person.",
+    "DatabaseEndTitle": "DATABASE",
+    "mysqlSubtitle": "MySQL is a database management system, which uses the SQL language as an interface. It is currently one of Oracle Corporation's most popular database management systems, with more than 10 million installations worldwide.",
+    "postgresSubtitle": "PostgreSQL is an object-relational database management system, developed as an open source project.",
+    "mongoSubtitle": "MongoDB is a free, open-source, cross-platform document-oriented database software. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.",
+    "typeormSubtitle": "TypeORM is an ORM that can run on NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8). Your goal is always to support the latest JavaScript features and provide additional features that will help you develop any type of application that uses databases - from small applications with a few tables to large-scale enterprise applications with multiple applications.",
+    "prismaSubtitle": "Prisma is a next-generation Node.js and TypeScript ORM for PostgreSQL, MySQL, SQL Server, SQLite, MongoDB, and CockroachDB. It provides type security, automated migrations, and an intuitive data model.",
+    "sequelizeSubtitle": "Sequelize is a Promise-based ORM (Object/Relational Mapper) for Node. js and io. js, and supports PostgreSQL, MySQL, MariaDB, SQLite, and MSSQL dialects, and features transaction, relationships, read replication, and more.",
+    "mongooseSubtitle": "Mongoose is an ODM and provides a straightforward, schema-based solution for modeling your application data. It includes built-in type conversion, validation, query creation, business logic hooks, and more, out of the box.",
+    "firebaseSubtitle": "Firebase is a platform developed by Google for creating mobile and web applications. It was originally an independent company founded in 2011. In 2014, Google acquired the platform, and it is now its core offering for app development.",
+    "hibernateSubtitle": "Hibernate is a framework for object-relational mapping written in the Java language, but it is also available in .Net under the name NHibernate. This framework facilitates the mapping of attributes between a traditional relational database and the object model of an application, through the use of Java files (XML) or annotations (see Annotation (java)).",
+    "backEndtitle": "BACK-END",
+    "apiSubtitle": "RESTful API is an interface that provides data in a standardized format based on HTTP requests. It provides data for these applications, making it easier to register and access. RESTful API is stuck until a request happens.",
+    "nodeSubtitle": "Node.js is an open-source, cross-platform software based on Google's V8 interpreter that allows JavaScript code to be executed outside of a web browser",
+    "expressSubtitle": "Express.js is a framework for Node.js that provides minimal resources for building web servers. It was released as free and open-source software under the MIT License. It is one of the most popular server frameworks in Node.js.",
+    "nestjsSubtitle": "NestJS is an open-source Node.js framework intended for server-side application development. It was created by Kamil Mysliwiec and released in 2017. Under the hood, by default, NestJS makes use of the Express.js framework, and is also compatible with Fastify. Its architecture is heavily inspired by Angular.",
+    "javaSubtitle": "Java is an object-oriented programming language developed in the 1990s by a team of programmers headed by James Gosling at Sun Microsystems, which in 2008 was acquired by Oracle Corporation.",
+    "mobileDevTitle": "MOBILE DEVELOPMENT",
+    "reactNativeSubtitle": "React Native is a Javascript library created by Facebook. It is used to develop applications for Android and iOS systems natively.",
+    "relatedTechTitle": "RELATED TECHNOLOGIES",
+    "protoTitle": "Prototyping",
+    "protoSubtitle": "Prototyping is the fourth and final phase of the Design Thinking process and its function is to validate the ideas generated in the previous phase, Ideation. It's time to put together proposals, refine concepts, and get your hands dirty. Its purpose is to reveal problems with design, usability, or suitability.",
+    "usabilityTitle": "Usability",
+    "usabilitySubtitle": "Usability aims to ensure that products are easy to learn to use, effective and enjoyable, always from the user's perspective. It's not just ease of use, but also bringing something meaningful, having a common goal with the user.",
+    "acessibilityTitle": "Accessibility",
+    "acessibilitySubtitle": "In the context of software, accessibility testing is a process for evaluating the usability of the system by people facing some kind of restriction that may be permanent, such as a disability, temporary, such as a broken finger, or situational, such as using the application while holding a child.",
+    "figmaSubtitle": "Figma is a vector graphic editor and design project prototyping primarily based on the web browser, with additional offline tools for desktop applications for GNU/Linux, macOS, and Windows.",
+    "githubSubtitle": "GitHub is a platform for hosting source code and versioned files using Git. It allows programmers, utilities or any user registered on the platform to contribute to private and/or Open Source projects from anywhere in the world.",
+    "photoshopSubtitle": "Adobe Photoshop is a software characterized as a two-dimensional raster image editor developed by Adobe Systems. It is considered the market leader for professional image editors, as well as the de facto program for professional digital image editing and prepress work.",
+    "linuxSubtitle": "Linux is a term popularly employed to refer to operating systems or operating systems that use the Linux Kernel. The core was developed by Finnish programmer Linus Torvalds, inspired by the Minix system. ",
+    "notionSubtitle": "Manage any type of project more efficiently without the need for an outdated system.",
+    "lucidchartSubtitle": "UML class diagrams map the structure of a given system by modeling its classes, their attributes, operations, and relationships between objects.",
+    "npmSubtitle": "npm is a package manager for Node.JS npm, Inc. is a subsidiary of GitHub, which provides hosting for software development and version control using Git. npm is the default package manager for the JavaScript Node.js runtime environment.",
+    "yarnSubtitle": "Yarn is a software packaging system developed in 2016 by Facebook to Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm (package manager).",
+    "jestSubtitle": "Jest is an open-source JavaScript unit testing framework created by Facebook from the Jasmine framework.",
+    "googleSubtitle": "Google Cloud Platform makes it possible to create more optimized applications and websites, resulting in the growth of your business. Thus, the company can develop functions with unique purposes, capable of responding to events in the cloud.",
+    "awsSubtitle": "Amazon Web Services (or AWS) has been around since 2006 and offers IT infrastructure services to companies through web services – the so-called cloud computing, which gives us the chance to trade high infrastructure expenses for prices that fit in our pockets.",
+    "vercelSubtitle": "Vercel's Frontend Cloud provides developers with frameworks, workflows, and infrastructure to build a faster, more personalized web.",
+    "herokuSubtitle": "Heroku is a cloud-as-a-service platform that supports multiple programming languages. One of the first cloud platforms, Heroku has been in development since June 2007 when it only supported the Ruby programming language, but now it supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.",
+    "dockerSubtitle": "Docker is a suite of platform-as-a-service (PaaS) products that use operating system-level virtualization to deliver software in packages called containers. Containers are isolated from each other and bundle their own software, libraries, and configuration files. They can communicate with each other through well-defined channels. All containers are run by a single operating system kernel and therefore use fewer resources than machines",
+    "postmanSubtitle": "Postman is an API platform for developers to design, build, test, and iterate their APIs. As of February 2023, Postman reports having more than 25 million registered users and 75,000 open APIs, which it says constitutes the largest public API hub in the world. The company is headquartered in San Francisco and maintains an office in Bangalore, where it was founded.",
+    "jUnitSubtitle": "JUnit is an open-source framework, which resembles the Java software testing beam, created by Erich Gamma and Kent Beck, with support for the creation of automated tests in the Java programming language.",
+    "mavenSubtitle": "Apache Maven, or Maven, is a build automation tool used primarily in Java projects. It's similar to the Ant tool, but it's based on different concepts and work in a different way.",
+    "swaggerSubtitle": "Swagger is a set of tools for API developers from SmartBear Software and an earlier specification on which the OpenAPI specification is based. The Swagger API project was created in 2011 by Tony Tam, technical co-founder of the dictionary website Wordnik.",
+    "pythonSubtitle": "Python is a high-level, script-interpreted, imperative, object-oriented, functional, dynamically typed, and strong programming language. It was launched by Guido van Rossum in 1991."
+
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Don't worry, our internationalization magic is still hard at work on other parts of the app. Feel free to navigate back to explore more!"
+  
+  },
+  "Contact": {
+    "getInContact": "Contact Us:"  
+  },
+  "Footer": {
+    "copyright": "© CSM SOLUÇÕES TECNOLÓGICAS E DESENVOLVIMENTO. All rights reserved.",
+    "paymentsAccepted": "I accept payment at:"
+  
+  }
+}
