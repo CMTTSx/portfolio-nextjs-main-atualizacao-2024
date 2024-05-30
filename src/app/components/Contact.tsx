@@ -6,17 +6,13 @@ import Link from 'next/link';
 import { BsMailbox2 } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
-import { useTranslations } from 'next-intl';
 
 export default function Contact() {
-
-  const t = useTranslations('Contact');
-
 
   return (
     <div className=' sm:ml-[4rem] sm:mt-20 2xl:ml-[4rem] min-w-320 ' >
 
-      <h1 className=' text-4xl text-center sm:font-bold lg:font-normal lg:hover:font-bold cursor-pointer ' >{t('getInContact')}</h1>
+      <h1 className=' text-4xl text-center sm:font-bold lg:font-normal lg:hover:font-bold cursor-pointer ' >Entre em Contato</h1>
 
       <div className=' sm:ml-[-0.22rem] 2xl:ml-[-2.2rem] flex flex-col text-center mt-20 ' >
         <BsMailbox2 color='red' size={45} className=' mx-auto ' />
