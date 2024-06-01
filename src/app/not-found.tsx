@@ -1,15 +1,12 @@
 'use client';
 
-import { useTranslations } from "next-intl";
-
 export default function NotFound() {
-
-  const t = useTranslations('NotFoundPage');
-
   return (
     <html>
       <body className='text-center'>
-        <h1 className='mt-10 font-semibold'>{t('title')}</h1>
+        <h1 className='mt-10 font-semibold'>Page not found!</h1>
+        <h1 className='mt-10 font-semibold'>Página não encontrada!</h1>
+
       </body>
     </html>
   );
