@@ -29,7 +29,7 @@ export default function Example() {
               <div className=' flex flex-row text-[#4F9D69] hover:scale-110 '>
                 <Image src={cvIcon} alt='cvIcon' className=' w-10 ' />
 
-                <h4 className=' sm:pt-[0.5rem] ' > {t('cv')} </h4>
+                <h4 className=' sm:pt-[0.5rem] ' > CV </h4>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ export default function Example() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <MenuItems className="absolute z-10 mt-2 w-20 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+        <MenuItems className="absolute z-10 mt-2 w-[8rem] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
             <MenuItem>
               {({ focus }: any) => (
@@ -58,7 +58,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  <Link href="/CV EN_2024.pdf" download="cv"><h4 className=' sm:pt-[0.5rem] flex flex-row ' ><Image src={euaFlagIcon} className='mr-2' alt='brf' />CV</h4></Link>
+                  <Link href="/CV EN_2024.pdf" download="cv"><h4 className=' sm:pt-[0.5rem] flex flex-row ' ><Image src={euaFlagIcon} className='mr-2' alt='brf' />Curriculum</h4></Link>
                 </Link>
               )}
             </MenuItem>
@@ -71,7 +71,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  <Link href="/CV PT-BR_2024.pdf" download="cv"><h4 className=' sm:pt-[0.5rem] flex flex-row ' ><Image src={brFlagIcon} className='mr-2' alt='brf' />CV</h4></Link>
+                  <Link href="/CV PT-BR_2024.pdf" download="cv"><h4 className=' sm:pt-[0.5rem] flex flex-row ' ><Image src={brFlagIcon} className='mr-2' alt='brf' />Currículo</h4></Link>
                 </a>
               )}
             </MenuItem>
