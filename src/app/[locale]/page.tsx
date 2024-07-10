@@ -1,3 +1,6 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
+
 //Import Components
 import Navbar from '../components/Navbar'
 import Profile from '../components/Profile'
@@ -7,7 +10,6 @@ import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function Home() {
   return (
