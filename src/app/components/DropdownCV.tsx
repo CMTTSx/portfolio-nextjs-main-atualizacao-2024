@@ -58,7 +58,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  <Link href="https://drive.google.com/drive/u/1/folders/1fx3Eeb4Uy2gd9EeApqFfn-whf9nxI8cN"><h4 className=' sm:pt-[0.5rem] flex flex-row ' ><Image src={euaFlagIcon} className='mr-2' alt='brf' />Curriculum</h4></Link>
+                  <Link href="https://drive.google.com/file/d/1W-bLIhOFGLSnRDouvu45or7AHCknu08d/view?usp=sharing"><h4 className=' sm:pt-[0.5rem] flex flex-row ' ><Image src={euaFlagIcon} className='mr-2' alt='brf' />Curriculum</h4></Link>
                 </Link>
               )}
             </MenuItem>
