@@ -1,12 +1,11 @@
-import { Fragment } from 'react'
-import { Menu, MenuButton, MenuItem, MenuItems, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import cvIcon from 'public/images/curriculum-vitae-portfolio-svgrepo-com.svg';
-import Link from 'next/link';
+import { Menu, MenuButton, MenuItem, MenuItems, Transition } from '@headlessui/react';
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import euaFlagIcon from 'public/images/eua_flag.svg';
+import Link from 'next/link';
 import brFlagIcon from 'public/images/brasilflag.svg';
+import cvIcon from 'public/images/curriculum-vitae-portfolio-svgrepo-com.svg';
+import euaFlagIcon from 'public/images/eua_flag.svg';
 
 
 function classNames(...classes: string[]) {
@@ -71,7 +70,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  <Link href="https://drive.google.com/file/d/15x0ROXIjRZU2zWWrOrUZnBjCeRGfVxdb/view"><h4 className=' sm:pt-[0.5rem] flex flex-row ' ><Image src={brFlagIcon} className='mr-2' alt='brf' />Currículo</h4></Link>
+                  <Link href="https://drive.google.com/drive/u/1/folders/1kfMMoT_GOIkKyPFIJBl1BWlpz7e9c2_N/view"><h4 className=' sm:pt-[0.5rem] flex flex-row ' ><Image src={brFlagIcon} className='mr-2' alt='brf' />Currículo</h4></Link>
                 </a>
               )}
             </MenuItem>
