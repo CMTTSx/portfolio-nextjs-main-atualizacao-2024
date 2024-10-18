@@ -1,12 +1,10 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 
 //Import icons
-import { BsMailbox2 } from 'react-icons/bs'
-import { BsLinkedin } from 'react-icons/bs'
-import { AiFillGithub } from 'react-icons/ai'
 import { useTranslations } from 'next-intl';
+import { AiFillGithub } from 'react-icons/ai';
+import { BsLinkedin, BsMailbox2 } from 'react-icons/bs';
 
 export default function Contact() {
 
